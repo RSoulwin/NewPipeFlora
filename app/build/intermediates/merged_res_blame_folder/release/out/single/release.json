@@ -1,0 +1,1302 @@
+[
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_selector_checked_dark.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/selector_checked_dark.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_chooser_fragment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_chooser_fragment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_mission_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/mission_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_blank.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_blank.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_splash_foreground.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/splash_foreground.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_comments_mini_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_comments_mini_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_not_available_monkey.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/not_available_monkey.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_choose_tabs.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_choose_tabs.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_debug_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/debug_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_toolbar_shadow_dark.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/toolbar_shadow_dark.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_notifications_channels.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_notifications_channels.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout-large-land_fragment_video_detail.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout-large-land/fragment_video_detail.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_playlist_control.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/playlist_control.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_thumb_down.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_thumb_down.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_work.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_work.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_picker_icon_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/picker_icon_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_history_future.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_history_future.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_school.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_school.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_pets.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_pets.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_video_detail.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_video_detail.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_settings_notification.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/settings_notification.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_instance_spinner_layout.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/instance_spinner_layout.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_radio.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_radio.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_smart_display.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_smart_display.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_placeholder_thumbnail_video.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/placeholder_thumbnail_video.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_selector_checked_light.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/selector_checked_light.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_feed_group_reorder_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/feed_group_reorder_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_asterisk.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_asterisk.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_history.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_history.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-mdpi_ic_replay_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-mdpi/ic_replay_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_item_search_suggestion.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/item_search_suggestion.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_placeholder_person.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/placeholder_person.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_live_tv.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_live_tv.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_people.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_people.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_selector_focused_light.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/selector_focused_light.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_missions_header.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/missions_header.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_sort.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_sort.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-nodpi_background_header.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-nodpi/background_header.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_error_panel.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/error_panel.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_licenses.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_licenses.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_placeholder_peertube.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_placeholder_peertube.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_player_notification_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/player_notification_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_video_audio_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/video_audio_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_bookmarks.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_bookmarks.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_fast_forward.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_fast_forward.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_visibility_off.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_visibility_off.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_select_kiosk_fragment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/select_kiosk_fragment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_stars.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_stars.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_player_fast_seek_seconds_view.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/player_fast_seek_seconds_view.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxxhdpi_ic_hourglass_top_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxxhdpi/ic_hourglass_top_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_checklist.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_checklist.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_player_controls_background.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/player_controls_background.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_history.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_select_all.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_select_all.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_choose_tabs.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_choose_tabs.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-mdpi_ic_newpipe_triangle_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-mdpi/ic_newpipe_triangle_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_filter_list.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_filter_list.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_statistic_playlist_control.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/statistic_playlist_control.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_download_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/download_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_channel_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_channel_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_repeat.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_repeat.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_playlist_play.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_playlist_play.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_language.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_language.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_channel_grid_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_channel_grid_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-mdpi_ic_newpipe_update.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-mdpi/ic_newpipe_update.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_local_playlist_header.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/local_playlist_header.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout-land_activity_player_queue_control.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout-land/activity_player_queue_control.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_toolbar_search_layout.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/toolbar_search_layout.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_instance_spinner_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/instance_spinner_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_item_instance.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/item_instance.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_drag_handle.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_drag_handle.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_comments.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_comments.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xhdpi_ic_replay_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xhdpi/ic_replay_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_cast.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_cast.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_mic.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_mic.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_format_list_numbered.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_format_list_numbered.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_header_with_menu_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/header_with_menu_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_search_add.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_search_add.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_play_seek_triangle.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_play_seek_triangle.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_chip.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/chip.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_settings_notification_action.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/settings_notification_action.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_brightness_high.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_brightness_high.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_main_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/main_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_select_channel_fragment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/select_channel_fragment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_play_queue_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/play_queue_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_music_note.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_music_note.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-nodpi_newpipe_logo_nude_shadow.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-nodpi/newpipe_logo_nude_shadow.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_directions_car.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_directions_car.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_main_bg.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/main_bg.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-hdpi_ic_newpipe_triangle_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-hdpi/ic_newpipe_triangle_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_feed.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_feed.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_dialog_feed_group_create.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/dialog_feed_group_create.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_dialog_title.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/dialog_title.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxhdpi_ic_replay_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxhdpi/ic_replay_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_dashed_border_dark.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/dashed_border_dark.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_dashed_border_black.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/dashed_border_black.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_progress_soundcloud_horizontal_light.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/progress_soundcloud_horizontal_light.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_progress_youtube_horizontal_dark.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/progress_youtube_horizontal_dark.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-hdpi_ic_hourglass_top_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-hdpi/ic_hourglass_top_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_about.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_movie.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_movie.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_restaurant.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_restaurant.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_search.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_activity_downloader.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/activity_downloader.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_error_menu.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/error_menu.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_list.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_list.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-mdpi_ic_close_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-mdpi/ic_close_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_circle.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_circle.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_settings_category_header_layout.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/settings_category_header_layout.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_player_controls_top_background.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/player_controls_top_background.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_provider_paths.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_close.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_playlist_grid_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_playlist_grid_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_campaign.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_campaign.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-v23_splash_background.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-v23/splash_background.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_playlist_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_playlist_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_explore.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_explore.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/animator_custom_fade_in.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/animator/custom_fade_in.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_recaptcha.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_recaptcha.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_tv.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_tv.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_playlist.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_playlist.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_rss_feed.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_rss_feed.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_player_fast_seek_overlay.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/player_fast_seek_overlay.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_whatshot.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_whatshot.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_directions_bike.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_directions_bike.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_player.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/player.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_hourglass_top.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_hourglass_top.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_play_queue_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_play_queue_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_volume_off.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_volume_off.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_next.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_next.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-nodpi_placeholder_channel_banner.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-nodpi/placeholder_channel_banner.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xhdpi_ic_newpipe_update.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xhdpi/ic_newpipe_update.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_radio_icon_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_radio_icon_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_settings_preferencesearch_fragment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/settings_preferencesearch_fragment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_done.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_done.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_settings_preferencesearch_list_item_result.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/settings_preferencesearch_list_item_result.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_drawer_items.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/drawer_items.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_progress_youtube_horizontal_light.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/progress_youtube_horizontal_light.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_headset.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_headset.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_stream_grid_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_stream_grid_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_add.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_search.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-night-v23_splash_background.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-night-v23/splash_background.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_notifications_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/notifications_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_public.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_public.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_empty_view.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_empty_view.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_selector_light.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/selector_light.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_playlist_mini_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_playlist_mini_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_brightness_medium.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_brightness_medium.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_picture_in_picture.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_picture_in_picture.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_fitness_center.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_fitness_center.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_arrow_drop_down.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_feed_group_dialog.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_feed_group_dialog.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_comments_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_comments_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxxhdpi_ic_newpipe_triangle_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxxhdpi/ic_newpipe_triangle_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_feed_item_carousel.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/feed_item_carousel.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_volume_down.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_volume_down.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_item_metadata_tags.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/item_metadata_tags.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_main.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_art_track.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_art_track.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_crop_portrait.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_crop_portrait.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_more_vert.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_more_vert.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_local_playlist.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_local_playlist.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_backup.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_backup.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_content_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/content_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_arrow_drop_up.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_player_popup_close_overlay.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/player_popup_close_overlay.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_stream_quality_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/stream_quality_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xhdpi_ic_close_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xhdpi/ic_close_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_stream_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_stream_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_fullscreen_exit.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_fullscreen_exit.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_selector_focused_dark.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/selector_focused_dark.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_activity_player_queue_control.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/activity_player_queue_control.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_dialog_url.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/dialog_url.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_toolbar_layout.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/toolbar_layout.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_notifications.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_notifications.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-hdpi_ic_replay_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-hdpi/ic_replay_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_expand_more.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_expand_more.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_main_fragment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_main_fragment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_placeholder_bandcamp.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_placeholder_bandcamp.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_selector_dark.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/selector_dark.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_thumb_up.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_thumb_up.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_apps.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_apps.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_missions.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/missions.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_item_metadata.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/item_metadata.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_playlist_add.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_playlist_add.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_feed_fragment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_feed_fragment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_help.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_help.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_activity_about.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/activity_about.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-xhdpi_newpipe_tv_banner.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-xhdpi/newpipe_tv_banner.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_empty.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_empty.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_person.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxxhdpi_ic_close_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxxhdpi/ic_close_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-night_splash_background.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-night/splash_background.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_add_circle_outline.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_add_circle_outline.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-mdpi_ic_hourglass_top_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-mdpi/ic_hourglass_top_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_toolbar_shadow_light.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/toolbar_shadow_light.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_import.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_import.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_subtitles.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_subtitles.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_channel.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_channel.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_pignate_footer.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/pignate_footer.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_channel.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_channel.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xhdpi_ic_newpipe_triangle_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xhdpi/ic_newpipe_triangle_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_arrow_back.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_instance_list.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_instance_list.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_drawer_layout.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/drawer_layout.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_progress_soundcloud_horizontal_dark.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/progress_soundcloud_horizontal_dark.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_dashed_border_light.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/dashed_border_light.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_mission.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/mission.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_update_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/update_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_cloud.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_cloud.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_shuffle.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_shuffle.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_save.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_save.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_motorcycle.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_motorcycle.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_playlist_add_check.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_playlist_add_check.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_favorite.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_watch_later.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_watch_later.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_heart.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_progress_circular_white.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/progress_circular_white.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xhdpi_ic_hourglass_top_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xhdpi/ic_hourglass_top_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_file_download.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_file_download.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_volume_mute.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_volume_mute.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_bookmark.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_bookmark.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_insert_emoticon.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_insert_emoticon.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_share.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_palette.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_palette.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_select_kiosk_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/select_kiosk_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_shopping_cart.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_shopping_cart.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_settings_layout.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/settings_layout.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_item_notification_config.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/item_notification_config.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_dialog_playback_parameter.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/dialog_playback_parameter.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxhdpi_ic_hourglass_top_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxhdpi/ic_hourglass_top_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_subscription.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_subscription.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_play_queue.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_play_queue.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_feed_group_card_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/feed_group_card_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_drawer_header.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/drawer_header.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_previous.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_previous.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_refresh.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_play_arrow_shadow.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_play_arrow_shadow.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_item_stream_segment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/item_stream_segment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_stream_mini_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_stream_mini_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_background_oval_black_transparent.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/background_oval_black_transparent.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_stream_playlist_grid_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_stream_playlist_grid_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_placeholder_media_ccc.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_placeholder_media_ccc.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_stream_playlist_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_stream_playlist_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_download_dialog.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/download_dialog.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_telescope.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_telescope.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_bug_report.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_bug_report.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_channels_notifications.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_channels_notifications.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_select_playlist_fragment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/select_playlist_fragment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxxhdpi_ic_replay_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxxhdpi/ic_replay_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_select_channel_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/select_channel_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_fastfood.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_fastfood.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_play_queue_bg.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_play_queue_bg.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/animator_custom_fade_out.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/animator/custom_fade_out.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_brightness_low.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_brightness_low.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_related_items_header.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/related_items_header.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_appearance_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/appearance_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxhdpi_ic_newpipe_update.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxhdpi/ic_newpipe_update.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_dialog_feed_group_reorder.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/dialog_feed_group_reorder.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_kiosk.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_kiosk.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_comment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_comment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_wb_sunny.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_wb_sunny.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_dialog_playlists.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/dialog_playlists.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_mission_item_linear.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/mission_item_linear.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxhdpi_ic_close_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxhdpi/ic_close_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_headset_shadow.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_headset_shadow.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-hdpi_ic_newpipe_update.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-hdpi/ic_newpipe_update.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_choose_tabs_dialog.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_choose_tabs_dialog.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_splash_background.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/splash_background.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_list_channel_mini_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/list_channel_mini_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_playlist.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_playlist.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_feed_group_add_new_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/feed_group_add_new_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_replay.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_replay.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxhdpi_ic_newpipe_triangle_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxhdpi/ic_newpipe_triangle_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_item_software_component.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/item_software_component.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_videogame_asset.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_videogame_asset.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_download_menu.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/download_menu.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_play_arrow.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_play_arrow.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_description.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_description.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_dialog_edit_text.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/dialog_edit_text.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_info_outline.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_info_outline.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_description.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_description.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-hdpi_ic_close_white.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-hdpi/ic_close_white.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_fullscreen.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_fullscreen.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_settings_backup_restore.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_settings_backup_restore.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_playlist_header.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/playlist_header.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_picker_subscription_item.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/picker_subscription_item.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_attach_money.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_attach_money.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_delete.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_single_choice_dialog_view.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/single_choice_dialog_view.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_activity_recaptcha.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/activity_recaptcha.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_channel_header.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/channel_header.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_computer.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_computer.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_placeholder_thumbnail_playlist.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/placeholder_thumbnail_playlist.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_fast_rewind.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_fast_rewind.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_home.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_activity_error.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/activity_error.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_pin.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_pin.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_pause.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_child_care.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_child_care.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-night_ic_heart.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-night/ic_heart.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_fragment_related_items.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/fragment_related_items.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/xml_history_settings.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/xml/history_settings.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/menu_menu_settings_main_fragment.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/menu/menu_settings_main_fragment.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_visibility_on.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_visibility_on.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_volume_up.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_volume_up.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_trending_up.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_trending_up.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_drawer_header_bottom_background.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/drawer_header_bottom_background.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable-xxxhdpi_ic_newpipe_update.png.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable-xxxhdpi/ic_newpipe_update.png"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/drawable_ic_cloud_download.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/drawable/ic_cloud_download.xml"
+    },
+    {
+        "merged": "org.schabi.newpipelegacy.app-merged_res-44:/layout_settings_category_header_title.xml.flat",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout/settings_category_header_title.xml"
+    }
+]

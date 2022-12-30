@@ -1,0 +1,223 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.core.content.FileProvider { <init>(); }
+-keep class androidx.media.session.MediaButtonReceiver { <init>(); }
+-keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.RescheduleReceiver { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.SystemAlarmService { <init>(); }
+-keep class androidx.work.impl.background.systemjob.SystemJobService { <init>(); }
+-keep class androidx.work.impl.diagnostics.DiagnosticsReceiver { <init>(); }
+-keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
+-keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
+-keep class com.jakewharton.processphoenix.ProcessPhoenix { <init>(); }
+-keep class com.squareup.picasso.PicassoProvider { <init>(); }
+-keep class leakcanary.internal.AppWatcherInstaller$MainProcess { <init>(); }
+-keep class leakcanary.internal.PlumberInstaller { <init>(); }
+-keep class org.acra.attachment.AcraContentProvider { <init>(); }
+-keep class org.acra.sender.JobSenderService { <init>(); }
+-keep class org.acra.sender.LegacySenderService { <init>(); }
+-keep class org.schabi.newpipelegacy.App { <init>(); }
+-keep class org.schabi.newpipelegacy.ExitActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.MainActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.PanicResponderActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.RouterActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.RouterActivity$FetcherService { <init>(); }
+-keep class org.schabi.newpipelegacy.about.AboutActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.download.DownloadActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.error.ErrorActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.error.ReCaptchaActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.local.feed.service.FeedLoadService { <init>(); }
+-keep class org.schabi.newpipelegacy.local.subscription.services.SubscriptionsExportService { <init>(); }
+-keep class org.schabi.newpipelegacy.local.subscription.services.SubscriptionsImportService { <init>(); }
+-keep class org.schabi.newpipelegacy.player.PlayQueueActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.player.PlayerService { <init>(); }
+-keep class org.schabi.newpipelegacy.settings.SettingsActivity { <init>(); }
+-keep class org.schabi.newpipelegacy.util.FilePickerActivityHelper { <init>(); }
+-keep class us.shandian.giga.service.DownloadManagerService { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatSeekBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SwitchCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Barrier { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Guideline { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.fragment.app.FragmentContainerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.preference.UnPressableLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.preference.internal.PreferenceImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.swiperefreshlayout.widget.SwipeRefreshLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager2.widget.ViewPager2 { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.AspectRatioFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.SubtitleView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.exoplayer2.ui.TrackSelectionView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButtonToggleGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.Chip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.ChipGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.floatingactionbutton.FloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.imageview.ShapeableImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.navigation.NavigationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textview.MaterialTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ChipTextInputComboView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockFaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockHandView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.settings.AppearanceSettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.ContentSettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.DebugSettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.DownloadSettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.HistorySettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.NotificationsSettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.PeertubeInstanceListFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.PlayerNotificationSettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.UpdateSettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.VideoAudioSettingsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.settings.custom.DurationListPreference { <init>(...); }
+
+-keep class org.schabi.newpipelegacy.settings.custom.NotificationActionsPreference { <init>(...); }
+
+-keep class org.schabi.newpipelegacy.settings.tabs.ChooseTabsFragment { <init>(); }
+
+-keep class org.schabi.newpipelegacy.views.AnimatedProgressBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.CustomCollapsingToolbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.ExpandableSurfaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.FocusAwareCoordinator { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.FocusAwareDrawerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.FocusAwareSeekBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.NewPipeEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.NewPipeRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.NewPipeTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.ScrollableTabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.player.CircleClipTapView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.player.PlayerFastSeekOverlay { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.schabi.newpipelegacy.views.player.SecondsView { <init>(android.content.Context, android.util.AttributeSet); }
+

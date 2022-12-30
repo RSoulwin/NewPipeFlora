@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25 x</item>
+    <item>0,5 x</item>
+    <item>0,75 x</item>
+    <item>Normalno</item>
+    <item>1,25 x</item>
+    <item>1,5 x</item>
+    <item>2 x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Premotavanje %d sekundu naprijed</item>
+    <item quantity="few">Premotavanje %d sekunde naprijed</item>
+    <item quantity="other">Premotavanje %d sekundi naprijed</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Premotavanje %d sekundu nazad</item>
+    <item quantity="few">Premotavanje %d sekunde nazad</item>
+    <item quantity="other">Premotavanje %d sekundi nazad</item>
+  </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d novo obavještenje</item>
+    <item quantity="few">%d nova obavještenja</item>
+    <item quantity="other">%d novih obavještenja</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Vratite se na početnu stranicu"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Idi gore"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Više opcija"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gotovo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Prikaži sve"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Odaberite aplikaciju"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ISKLJUČENO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"UKLJUČENO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"razmak"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pretražite..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Obriši upit"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Pretraži upit"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pretraži"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Pošalji upit"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Glasovno pretraživanje"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dijeli sa"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dijeli putem aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Suzi"</string>
+    <string name="auto_queue_summary">Nastavite završni (ne-ponavljajući) reprodukcijski red privlakom srodnog prijenosa</string>
+    <string name="auto_queue_title">Automatski sljedeći prijenos u red stavite</string>
+    <string name="auto_queue_toggle">Automatsko redanje</string>
+    <string name="autoplay_title">Automatsko reproduciranje</string>
+    <string name="black_theme_title">Crna</string>
+    <string name="bottomsheet_action_expand_halfway">Proširivanje dopola</string>
+    <string name="brightness_gesture_control_summary">Koristite pokrete za kontrolu svjetline pokretača</string>
+    <string name="brightness_gesture_control_title">Kontrola osvetljenja sa pokretima</string>
+    <string name="cancel">Otkaži</string>
+    <string name="channel_unsubscribed">Otkazana pratnja kanala</string>
+    <string name="character_counter_content_description">Uneseno znakova: %1$d od %2$d</string>
+    <string name="character_counter_overflowed_content_description">Ograničenje broja znakova premašuje %1$d od %2$d</string>
+    <string name="clear_queue_confirmation_description">Aktivni pokretni red će biti zamijenjen</string>
+    <string name="clear_queue_confirmation_summary">Prebacivanje sa jednog pokretača na drugi bi van moglo zamijeniti pokretni red</string>
+    <string name="clear_queue_confirmation_title">Pitajte za potvrdu prije isčišćavanja reda</string>
+    <string name="clear_text_end_icon_content_description">Obriši tekst</string>
+    <string name="controls_add_to_playlist_title">Dodajte u</string>
+    <string name="controls_background_title">Pozadina</string>
+    <string name="controls_download_desc">Preuzmite datoteku za prijenos</string>
+    <string name="controls_popup_title">Iskačni prozor</string>
+    <string msgid="6083905920877235314" name="copy">"Kopiraj"</string>
+    <string name="crash_the_player">Prekinite pokretač</string>
+    <string name="dark_theme_title">Tamna</string>
+    <string name="default_audio_format_title">Zadani zvučni format</string>
+    <string name="default_popup_resolution_title">Zadani režim za iskačući prozor</string>
+    <string name="default_resolution_title">Zadani režim</string>
+    <string name="default_video_format_title">Zadani video format</string>
+    <string name="did_you_mean">Jeste li mislili \"%1$s\"\?</string>
+    <string name="download">Preuzimanje</string>
+    <string name="download_dialog_title">Preuzimanje</string>
+    <string name="download_path_audio_dialog_title">Odaberite fasciklu gdje se audio datoteke skidaju</string>
+    <string name="download_path_audio_summary">Skinuti audio zapisi su ovdje spremljeni</string>
+    <string name="download_path_audio_title">Fascikla za preuzimanje audia</string>
+    <string name="download_path_dialog_title">Odaberite fasciklu gdje se video datoteke skidaju</string>
+    <string name="download_path_summary">Skinuti video zapisi su ovdje spremljeni</string>
+    <string name="download_path_title">Fascikla za preuzimanje videa</string>
+    <string name="download_thumbnail_summary">Isključite kako bi ste spriječili učitavanje sličica, sto če vam spasiti korištenje podataka i memorije. Promjene čiste slike oboje u memoriji i predmešiju na disku</string>
+    <string name="download_thumbnail_title">Učitajte sličice</string>
+    <string name="enable_playback_resume_summary">Vratite posljednju poziciju reprodukcije</string>
+    <string name="enable_playback_resume_title">Nastavi reproduciranje</string>
+    <string name="enable_playback_state_lists_summary">Prikažite indikatore pozicije reprodukcije u listama</string>
+    <string name="enable_playback_state_lists_title">Pozicije u listama</string>
+    <string name="enable_search_history_summary">Lokalno pohranite upite pretraživanja</string>
+    <string name="enable_search_history_title">Povijest pretraga</string>
+    <string name="enable_watch_history_summary">Vodite računa o pregledanim video zapisima</string>
+    <string name="enable_watch_history_title">Historija pregleda</string>
+    <string name="error_icon_content_description">Greška</string>
+    <string name="exo_controls_cc_disabled_description">Omogućavanje titlova</string>
+    <string name="exo_controls_cc_enabled_description">Onemogućavanje titlova</string>
+    <string name="exo_controls_fastforward_description">Premotavanje unaprijed</string>
+    <string name="exo_controls_fullscreen_enter_description">Prikaz preko cijelog ekrana</string>
+    <string name="exo_controls_fullscreen_exit_description">Isključ. prikaza preko cijelog ekrana</string>
+    <string name="exo_controls_hide">Sakrij kontrole plejera</string>
+    <string name="exo_controls_next_description">Naprijed</string>
+    <string name="exo_controls_overflow_hide_description">Sakrivanje dodatnih postavki</string>
+    <string name="exo_controls_overflow_show_description">Prikaz dodatnih postavki</string>
+    <string name="exo_controls_pause_description">Pauza</string>
+    <string name="exo_controls_play_description">Reproduciranje</string>
+    <string name="exo_controls_playback_speed">Brzina</string>
+    <string name="exo_controls_previous_description">Nazad</string>
+    <string name="exo_controls_repeat_all_description">Trenutni način: Ponovi sve. Uklj./isklj. ponavlj.</string>
+    <string name="exo_controls_repeat_off_description">Trenutni način: Ne ponavljaj. Uklj./isklj. ponavlj.</string>
+    <string name="exo_controls_repeat_one_description">Trenutni način: Ponovi jedno. Uklj./isklj. ponavlj.</string>
+    <string name="exo_controls_rewind_description">Premotavanje unazad</string>
+    <string name="exo_controls_seek_bar_description">Napredak reprodukcije</string>
+    <string name="exo_controls_settings_description">Postavke</string>
+    <string name="exo_controls_show">Prikaži kontrole plejera</string>
+    <string name="exo_controls_shuffle_off_description">Omogućavanje nasumičnog načina rada</string>
+    <string name="exo_controls_shuffle_on_description">Onemogućavanje nasumičnog načina rada</string>
+    <string name="exo_controls_stop_description">Zaustavljanje</string>
+    <string name="exo_controls_vr_description">VR način rada</string>
+    <string name="exo_download_completed">Preuzimanje je završeno</string>
+    <string name="exo_download_description">Preuzmi</string>
+    <string name="exo_download_downloading">Preuzimanje</string>
+    <string name="exo_download_failed">Preuzimanje nije uspjelo</string>
+    <string name="exo_download_notification_channel_name">Preuzimanja</string>
+    <string name="exo_download_paused">Preuzimanja su pauzirana</string>
+    <string name="exo_download_paused_for_network">Preuzimanja čekaju povezivanje s mrežom</string>
+    <string name="exo_download_paused_for_wifi">Preuzimanja čekaju WiFi</string>
+    <string name="exo_download_removing">Uklanjanje preuzimanja</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_media_action_repeat_all_description">Ponovi sve</string>
+    <string name="exo_media_action_repeat_off_description">Ne ponavljaj</string>
+    <string name="exo_media_action_repeat_one_description">Ponovi jedno</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativni zapis</string>
+    <string name="exo_track_role_closed_captions">Titlovi</string>
+    <string name="exo_track_role_commentary">Komentari</string>
+    <string name="exo_track_role_supplementary">Dodatni zapis</string>
+    <string name="exo_track_selection_auto">Automatski</string>
+    <string name="exo_track_selection_none">Ništa</string>
+    <string name="exo_track_selection_title_audio">Zvuk</string>
+    <string name="exo_track_selection_title_text">Tekst</string>
+    <string name="exo_track_selection_title_video">Videozapis</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Prostorno ozvučenje</string>
+    <string name="exo_track_surround_5_point_1">Prostorno ozvučenje 5.1</string>
+    <string name="exo_track_surround_7_point_1">Prostorno ozvučenje 7.1</string>
+    <string name="exo_track_unknown">Nepoznato</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Napredno"</string>
+    <string name="exposed_dropdown_menu_content_description">Prikaži padajući meni</string>
+    <string name="icon_content_description">ikona dijaloškog okvira</string>
+    <string name="install">Instališi</string>
+    <string name="item_view_role_description">Kartica</string>
+    <string name="kore_not_found">Instalirajte nedostajeću Kore aplikaciju\?</string>
+    <string name="light_theme_title">Svijetla</string>
+    <string name="local_search_suggestions">Lokalni prijedlozi za pretraživanje</string>
+    <string name="main_bg_subtitle">Dodirnite lupu da bi ste započeli.</string>
+    <string name="mark_as_watched">Označite kao pregledano</string>
+    <string name="material_clock_toggle_content_description">Odaberite prijepodne ili poslijepodne</string>
+    <string name="material_hour_selection">Odaberite sat</string>
+    <string name="material_hour_suffix">%1$s h</string>
+    <string name="material_minute_selection">Odaberite minute</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Prebacite u način rada kao sat za unos vremena.</string>
+    <string name="material_timepicker_hour">Sat</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Odabir vremena</string>
+    <string name="material_timepicker_text_input_mode_description">Prebacite u način unosa teksta za unos vremena.</string>
+    <string name="metadata_cache_wipe_complete_notice">Keširani metapodaci su obrisani</string>
+    <string name="metadata_cache_wipe_summary">Uklonite sve keširane podatke web stranica</string>
+    <string name="metadata_cache_wipe_title">Obrišite keširane metapodatke</string>
+    <string name="mtrl_badge_numberless_content_description">Novo obavještenje</string>
+    <string name="mtrl_chip_close_icon_content_description">Uklonite %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Broj novih obavještenja: više od %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Promijeni na sljedeći mjesec</string>
+    <string name="mtrl_picker_a11y_prev_month">Promijeni na prethodni mjesec</string>
+    <string name="mtrl_picker_announce_current_selection">Trenutni izbor: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Odaberite datum</string>
+    <string name="mtrl_picker_date_header_unselected">Odabrani datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolona za dane: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Nevažeći format.</string>
+    <string name="mtrl_picker_invalid_format_example">Primjer: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Koristi: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Nevažeći opseg.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Odlazak na %1$s. godinu</string>
+    <string name="mtrl_picker_out_of_range">Izvan opsega: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Datum početka – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Datum završetka</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Odaberite raspon</string>
+    <string name="mtrl_picker_range_header_unselected">Datum početka – Datum završetka</string>
+    <string name="mtrl_picker_save">Sačuvaj</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Datum završetka</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Datum početka</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">g</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Prebacivanje na način unosa kalendara</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Dodirnite da prebacite na odabir dana</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Prebacivanje na način unosa teksta</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Dodirnite da prebacite na odabir godine</string>
+    <string name="night_theme_title">Noćna Tema</string>
+    <string name="no_player_found">Nije pronađen nijedan medijski prijenosnik. Hoćete VLC instalisati\?</string>
+    <string name="no_player_found_toast">Nijedan medijski prijenosnik nije nađen na vašem uređaju (možete VLC instalisati da bi ste ga pokrenili).</string>
+    <string msgid="6573031135582639649" name="not_set">"Nije postavljeno"</string>
+    <string name="notification_action_0_title">Prvo radno dugme</string>
+    <string name="notification_action_1_title">Drugo radno dugme</string>
+    <string name="notification_action_2_title">Treće radno dugme</string>
+    <string name="notification_action_3_title">Četvrto radno dugme</string>
+    <string name="notification_action_4_title">Peto radno dugme</string>
+    <string name="notification_action_buffering">Učitavanje</string>
+    <string name="notification_action_nothing">Ništa</string>
+    <string name="notification_action_repeat">Ponovi</string>
+    <string name="notification_action_shuffle">Pomiješajte</string>
+    <string name="notification_actions_at_most_three">Možete najviše tri radnje odabrati za prikaz u kompaktnom obavještaju!</string>
+    <string name="notification_actions_summary">Uredite svaku radnju obavještenja ispod pri dodiru na nju. Odaberite bar tri od njih za prikaz u kompaktnom obavještenju koristeći potvrdne okvire s desne strane</string>
+    <string name="notification_colorize_summary">Dajte Android-u da prilagodi boju obavijesti prema glavnoj boji na sličici (čuvajte u umu da ovo nije dostupno na svim uređajima)</string>
+    <string name="notification_colorize_title">Obojite obavještenje</string>
+    <string name="notification_scale_to_square_image_summary">Skalirajte video sličicu prikazanu u obavijesti sa 16:9 na 1:1 omjer (može uvesti poremećaje)</string>
+    <string name="notification_scale_to_square_image_title">Skalirajte sličicu na 1:1 omjer</string>
+    <string name="ok">U redu</string>
+    <string name="open_in_browser">Otvorite u pretraživaču</string>
+    <string name="open_in_popup_mode">Otvorite u skočnom prozoru</string>
+    <string name="open_with">Otvorite sa</string>
+    <string name="password_toggle_content_description">Prikaži lozinku</string>
+    <string name="play_audio">Zvuk</string>
+    <string name="play_with_kodi_title">Pokrenite s KODI-jem</string>
+    <string name="popup_remember_size_pos_summary">Zapamtite posljednju veličinu i položaj iskočnog prozora</string>
+    <string name="popup_remember_size_pos_title">Zapamtite podešavanja za iskočne prozore</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" kopirano u međumemoriju."</string>
+    <string name="progressive_load_interval_summary">Promijenite veličinu intervala za učitavanje (trenutačno %s). Niža vrijednost bi vam moglo ubrzat učitavanje videa. Trebate te ponovno učitati pokretač za promjenu.</string>
+    <string name="remote_search_suggestions">Razdaljeni prijedlozi za pretraživanje</string>
+    <string name="resume_on_audio_focus_gain_summary">Nastavite reprodukciju nakon prekida (npr. telefonskih poziva)</string>
+    <string name="resume_on_audio_focus_gain_title">Nastavite sa reprodukcijom</string>
+    <string name="search">Pretraži</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pretražite"</string>
+    <string name="search_showing_result_for">Pokazuju se rezultati za: %s</string>
+    <string name="seek_duration_title">Vrijeme premotavanja naprijed/nazad</string>
+    <string name="settings">Podešavanja</string>
+    <string name="settings_category_clear_data_title">Raščistite podatke</string>
+    <string name="share">Podijeli</string>
+    <string name="share_dialog_title">Podijelite pomoću</string>
+    <string name="show_comments_summary">Isključite da sakrijete komentare</string>
+    <string name="show_comments_title">Prikažite komentare</string>
+    <string name="show_description_summary">Isključite da biste sakrili opis videa i dodatne informacije</string>
+    <string name="show_description_title">Prikažite opis</string>
+    <string name="show_higher_resolutions_summary">Samo neki uređaji mogu 2K/4K video zapise reproducirati</string>
+    <string name="show_higher_resolutions_title">Prikaži veće režime</string>
+    <string name="show_info">Prikažite informaciju</string>
+    <string name="show_meta_info_summary">Isključite da bi ste sakrili meta-informacijske kutije sa dodatnim informacijama o praviocu prijenosa, sadržaju prijenosa ili zahtjevu za pretraživanje</string>
+    <string name="show_meta_info_title">Prikažite meta-informaciju</string>
+    <string name="show_next_and_similar_title">Pokažite \'Sljedeće\' i \'Slične\' video zapise</string>
+    <string name="show_play_with_kodi_summary">Prikažite postavku da biste video preko KODI medijskog centra video pokrenuli</string>
+    <string name="show_play_with_kodi_title">Prikažite postavku \"Pokreni sa KODI-jem\"</string>
+    <string name="show_search_suggestions_summary">Odaberite prijedloge koje želite prikazati prilikom pretrage</string>
+    <string name="show_search_suggestions_title">Prijedlozi za pretragu</string>
+    <string name="start_main_player_fullscreen_summary">Nemojte pokretati video zapise u mini-pokretaču, već direktno pređite na režim cijelog ekrana, ako je automatska rotacija zaključana. I dalje možete pristupiti mini-pokretaču pri izlasku iz cijelog ekrana</string>
+    <string name="start_main_player_fullscreen_title">Pokrenite glavni pokretač preko cijelog ekrana</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subscribe_button_title">Pratite</string>
+    <string name="subscribed_button_title">U pratnji</string>
+    <string name="subscription_change_failed">Nije moguće promijeniti pratnju</string>
+    <string name="subscription_update_failed">Nije moguće ažurirati pratnju</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="tab_bookmarks">Obilježeni Popisi</string>
+    <string name="tab_choose">Izaberite Podprozor</string>
+    <string name="tab_subscriptions">Pratnje</string>
+    <string name="theme_title">Tema</string>
+    <string name="thumbnail_cache_wipe_complete_notice">Keširane slike su izbrisane</string>
+    <string name="unsubscribe">Otkažite pratnju</string>
+    <string name="upload_date_text">Objavljeno na %1$s</string>
+    <string name="use_external_audio_player_title">Koristite eksterni audio pokretač</string>
+    <string name="use_external_video_player_summary">Uklanja zvuk u nekim režimima</string>
+    <string name="use_external_video_player_title">Koristite vanjski video pokretač</string>
+    <string name="use_inexact_seek_summary">Neprecizno premotavanje dozvoljava pokretaču brže premotavanje s gorom preciznošću. Premotavanje za 5, 15 ili 25 sekundi ne radi s ovim</string>
+    <string name="use_inexact_seek_title">Koristite brzo neprecizno premotavanje</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ISKLJUČENO"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"UKLJUČENO"</string>
+    <string name="volume_gesture_control_summary">Koristite pokrete za kontrolu jačine zvuka pokretača</string>
+    <string name="volume_gesture_control_title">Pokretna kontrola zvučne glasnine</string>
+</resources>

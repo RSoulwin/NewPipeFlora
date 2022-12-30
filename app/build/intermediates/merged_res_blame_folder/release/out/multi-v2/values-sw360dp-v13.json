@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.schabi.newpipelegacy.app-mergeReleaseResources-42:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\bharti\\.gradle\\caches\\transforms-3\\34736f3c033c3d9d380aefb96a4c6b79\\transformed\\preference-1.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}

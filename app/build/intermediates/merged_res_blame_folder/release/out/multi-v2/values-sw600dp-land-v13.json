@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.schabi.newpipelegacy.app-mergeReleaseResources-42:/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Jass Code\\NewPipe22-legacy-Update_dev\\app\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "5,16,12,14,7,13,11,6,9,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "125,809,563,706,257,632,496,192,393,325",
+                        "endColumns": "66,62,68,75,67,73,66,64,70,67",
+                        "endOffsets": "187,867,627,777,320,701,558,252,459,388"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,122,185,254,330,398,472,539,604,675",
+                        "endColumns": "66,62,68,75,67,73,66,64,70,67",
+                        "endOffsets": "117,180,249,325,393,467,534,599,670,738"
+                    }
+                }
+            ]
+        }
+    ]
+}

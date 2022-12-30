@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.schabi.newpipelegacy.app-mergeReleaseResources-42:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "D:\\Jass Code\\NewPipe22-legacy-Update_dev\\app\\src\\main\\res\\values-v27\\styles.xml",
+                    "from": {
+                        "startLines": "7,25,19,13,4,22,16,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "221,945,674,437,80,764,528,290",
+                        "endLines": "7,25,19,13,6,24,18,12",
+                        "endColumns": "42,65,63,65,12,12,12,12",
+                        "endOffsets": "259,1006,733,498,216,940,669,432"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,9,12,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,163,226,291,432,522,668",
+                        "endLines": "2,3,4,5,8,11,14,17",
+                        "endColumns": "42,64,62,64,12,12,12,12",
+                        "endOffsets": "93,158,221,286,427,517,663,810"
+                    }
+                }
+            ]
+        }
+    ]
+}

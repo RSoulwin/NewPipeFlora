@@ -1,0 +1,1183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.schabi.newpipe.Flora"
+4    android:installLocation="auto"
+5    android:versionCode="987"
+6    android:versionName="0.23.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:7:5-67
+12-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:8:5-68
+13-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:8:22-65
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:9:5-79
+14-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:10:5-81
+15-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:11:5-78
+16-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:11:22-75
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:12:5-77
+17-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:12:22-74
+18
+19    <uses-feature
+19-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.touchscreen"
+20-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:15:9-52
+21        android:required="false" />
+21-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:16:9-33
+22
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+23-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+24
+25    <application
+25-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:18:5-392:19
+26        android:name="org.schabi.newpipelegacy.App"
+26-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:19:9-28
+27        android:allowBackup="true"
+27-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:20:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] C:\Users\bharti\.gradle\caches\transforms-3\913dd352afe0eafdfda9cdb7f2644781\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+29        android:banner="@mipmap/newpipe_tv_banner"
+29-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:21:9-51
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:22:9-43
+31        android:label="@string/app_name"
+31-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:23:9-41
+32        android:logo="@mipmap/ic_launcher"
+32-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:24:9-43
+33        android:resizeableActivity="true"
+33-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:26:9-42
+34        android:theme="@style/OpeningTheme" >
+34-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:25:9-44
+35        <activity
+35-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:28:9-38:20
+36            android:name="org.schabi.newpipelegacy.MainActivity"
+36-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:29:13-41
+37            android:label="@string/app_name"
+37-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:30:13-45
+38            android:launchMode="singleTask" >
+38-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:31:13-44
+39            <intent-filter>
+39-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:32:13-37:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:33:17-69
+40-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:33:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:35:17-77
+42-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:35:27-74
+43                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+43-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:36:17-86
+43-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:36:27-83
+44            </intent-filter>
+45        </activity>
+46
+47        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+47-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:40:9-44:20
+47-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:40:19-76
+48            <intent-filter>
+48-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:41:13-43:29
+49                <action android:name="android.intent.action.MEDIA_BUTTON" />
+49-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:42:17-77
+49-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:42:25-74
+50            </intent-filter>
+51        </receiver>
+52
+53        <service
+53-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:46:9-53:19
+54            android:name="org.schabi.newpipelegacy.player.PlayerService"
+54-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:47:13-49
+55            android:exported="false"
+55-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:48:13-37
+56            android:foregroundServiceType="mediaPlayback" >
+56-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:49:13-58
+57            <intent-filter>
+57-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:41:13-43:29
+58                <action android:name="android.intent.action.MEDIA_BUTTON" />
+58-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:42:17-77
+58-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:42:25-74
+59            </intent-filter>
+60        </service>
+61
+62        <activity
+62-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:55:9-58:47
+63            android:name="org.schabi.newpipelegacy.player.PlayQueueActivity"
+63-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:56:13-53
+64            android:label="@string/title_activity_play_queue"
+64-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:57:13-62
+65            android:launchMode="singleTask" />
+65-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:58:13-44
+66        <activity
+66-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:60:9-62:48
+67            android:name="org.schabi.newpipelegacy.settings.SettingsActivity"
+67-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:61:13-54
+68            android:label="@string/settings" />
+68-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:62:13-45
+69        <activity
+69-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:64:9-66:60
+70            android:name="org.schabi.newpipelegacy.about.AboutActivity"
+70-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:65:13-48
+71            android:label="@string/title_activity_about" />
+71-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:66:13-57
+72
+73        <service android:name="org.schabi.newpipelegacy.local.subscription.services.SubscriptionsImportService" />
+73-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:68:9-91
+73-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:68:18-88
+74        <service android:name="org.schabi.newpipelegacy.local.subscription.services.SubscriptionsExportService" />
+74-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:69:9-91
+74-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:69:18-88
+75        <service android:name="org.schabi.newpipelegacy.local.feed.service.FeedLoadService" />
+75-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:70:9-71
+75-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:70:18-68
+76
+77        <activity
+77-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:72:9-82:20
+78            android:name="org.schabi.newpipelegacy.PanicResponderActivity"
+78-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:73:13-51
+79            android:launchMode="singleInstance"
+79-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:74:13-48
+80            android:noHistory="true"
+80-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:75:13-37
+81            android:theme="@android:style/Theme.NoDisplay" >
+81-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:76:13-59
+82            <intent-filter>
+82-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:77:13-81:29
+83                <action android:name="info.guardianproject.panic.action.TRIGGER" />
+83-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:78:17-84
+83-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:78:25-81
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+85-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:84:9-87:62
+89            android:name="org.schabi.newpipelegacy.ExitActivity"
+89-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:85:13-41
+90            android:label="@string/general_error"
+90-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:86:13-50
+91            android:theme="@android:style/Theme.NoDisplay" />
+91-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:87:13-59
+92        <activity android:name="org.schabi.newpipelegacy.error.ErrorActivity" />
+92-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:88:9-57
+92-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:88:19-54
+93
+94        <!-- giga get related -->
+95        <activity
+95-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:91:9-94:47
+96            android:name="org.schabi.newpipelegacy.download.DownloadActivity"
+96-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:92:13-54
+97            android:label="@string/app_name"
+97-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:93:13-45
+98            android:launchMode="singleTask" />
+98-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:94:13-44
+99
+100        <service android:name="us.shandian.giga.service.DownloadManagerService" />
+100-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:96:9-83
+100-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:96:18-80
+101
+102        <activity
+102-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:98:9-106:20
+103            android:name="org.schabi.newpipelegacy.util.FilePickerActivityHelper"
+103-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:99:13-58
+104            android:label="@string/app_name"
+104-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:100:13-45
+105            android:theme="@style/FilePickerThemeDark" >
+105-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:101:13-55
+106            <intent-filter>
+106-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:102:13-105:29
+107                <action android:name="android.intent.action.GET_CONTENT" />
+107-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:103:17-76
+107-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:103:25-73
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+109-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+110            </intent-filter>
+111        </activity>
+112        <activity
+112-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:108:9-110:49
+113            android:name="org.schabi.newpipelegacy.error.ReCaptchaActivity"
+113-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:109:13-52
+114            android:label="@string/recaptcha" />
+114-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:110:13-46
+115
+116        <provider
+117            android:name="androidx.core.content.FileProvider"
+117-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:113:13-62
+118            android:authorities="org.schabi.newpipe.Flora.provider"
+118-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:114:13-60
+119            android:exported="false"
+119-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:115:13-37
+120            android:grantUriPermissions="true" >
+120-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:116:13-47
+121            <meta-data
+121-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:117:13-119:62
+122                android:name="android.support.FILE_PROVIDER_PATHS"
+122-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:118:17-67
+123                android:resource="@xml/nnf_provider_paths" />
+123-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:119:17-59
+124        </provider>
+125
+126        <activity
+126-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:122:9-380:20
+127            android:name="org.schabi.newpipelegacy.RouterActivity"
+127-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:123:13-43
+128            android:excludeFromRecents="true"
+128-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:124:13-46
+129            android:label="@string/preferred_open_action_share_menu_title"
+129-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:125:13-75
+130            android:taskAffinity=""
+130-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:126:13-36
+131            android:theme="@style/RouterActivityThemeDark" >
+131-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:127:13-59
+132
+133            <!-- Youtube filter -->
+134            <intent-filter>
+134-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:130:13-156:29
+135                <action android:name="android.intent.action.VIEW" />
+135-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+135-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+136                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+136-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+136-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+137                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+137-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+137-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+139-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+140-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+141
+142                <data android:scheme="http" />
+142-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+142-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+143                <data android:scheme="https" />
+143-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+143-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+144                <data android:host="youtube.com" />
+144-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+144-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+145                <data android:host="m.youtube.com" />
+145-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+145-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+146                <data android:host="www.youtube.com" />
+146-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+146-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+147                <data android:host="music.youtube.com" />
+147-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+147-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+148                <!-- video prefix -->
+149                <data android:pathPrefix="/v/" />
+149-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+149-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+150                <data android:pathPrefix="/embed/" />
+150-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+150-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+151                <data android:pathPrefix="/watch" />
+151-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+151-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+152                <data android:pathPrefix="/attribution_link" />
+152-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+152-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+153                <data android:pathPrefix="/shorts/" />
+153-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+153-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+154                <!-- channel prefix -->
+155                <data android:pathPrefix="/channel/" />
+155-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+155-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+156                <data android:pathPrefix="/user/" />
+156-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+156-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+157                <data android:pathPrefix="/c/" />
+157-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+157-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+158                <!-- playlist prefix -->
+159                <data android:pathPrefix="/playlist" />
+159-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+159-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+160            </intent-filter>
+161            <intent-filter>
+161-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:157:13-169:29
+162                <action android:name="android.intent.action.VIEW" />
+162-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+162-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+163                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+163-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+163-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+164                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+164-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+164-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+166-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+167                <category android:name="android.intent.category.BROWSABLE" />
+167-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+167-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+168
+169                <data android:scheme="http" />
+169-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+169-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+170                <data android:scheme="https" />
+170-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+170-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+171                <data android:host="youtu.be" />
+171-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+171-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+172                <data android:pathPrefix="/" />
+172-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+172-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+173            </intent-filter>
+174            <intent-filter>
+174-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:170:13-182:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+175-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+176                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+176-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+176-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+177                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+177-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+177-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+178
+179                <category android:name="android.intent.category.DEFAULT" />
+179-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+179-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+180                <category android:name="android.intent.category.BROWSABLE" />
+180-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+180-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+181
+182                <data android:scheme="http" />
+182-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+182-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+183                <data android:scheme="https" />
+183-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+183-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+184                <data android:host="www.youtube-nocookie.com" />
+184-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+184-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+185                <data android:pathPrefix="/embed/" />
+185-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+185-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+186            </intent-filter>
+187            <intent-filter>
+187-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:183:13-193:29
+188                <action android:name="android.intent.action.VIEW" />
+188-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+188-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+189                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+189-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+189-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+190                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+190-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+190-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+191
+192                <category android:name="android.intent.category.DEFAULT" />
+192-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+192-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+193                <category android:name="android.intent.category.BROWSABLE" />
+193-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+193-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+194
+195                <data android:scheme="vnd.youtube" />
+195-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+195-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+196                <data android:scheme="vnd.youtube.launch" />
+196-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+196-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+197            </intent-filter>
+198
+199            <!-- Hooktube filter -->
+200            <intent-filter>
+200-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:196:13-215:29
+201                <action android:name="android.intent.action.VIEW" />
+201-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+201-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+202                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+202-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+202-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+203                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+203-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+203-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+205-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+206                <category android:name="android.intent.category.BROWSABLE" />
+206-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+206-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+207
+208                <data android:scheme="http" />
+208-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+208-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+209                <data android:scheme="https" />
+209-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+209-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+210                <data android:host="hooktube.com" />
+210-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+210-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+211                <data android:host="*.hooktube.com" />
+211-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+211-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+212                <!-- video prefix -->
+213                <data android:pathPrefix="/v/" />
+213-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+213-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+214                <data android:pathPrefix="/embed/" />
+214-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+214-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+215                <data android:pathPrefix="/watch" />
+215-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+215-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+216                <!-- channel prefix -->
+217                <data android:pathPrefix="/channel/" />
+217-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+217-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+218                <data android:pathPrefix="/user/" />
+218-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+218-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+219            </intent-filter>
+220
+221            <!-- Invidious filter -->
+222            <intent-filter>
+222-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:218:13-257:29
+223                <action android:name="android.intent.action.VIEW" />
+223-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+223-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+224                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+224-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+224-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+225                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+225-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+225-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+226
+227                <category android:name="android.intent.category.DEFAULT" />
+227-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+227-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+228                <category android:name="android.intent.category.BROWSABLE" />
+228-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+228-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+229
+230                <data android:scheme="http" />
+230-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+230-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+231                <data android:scheme="https" />
+231-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+231-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+232                <data android:host="tubus.eduvid.org" />
+232-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+232-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+233                <data android:host="invidio.us" />
+233-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+233-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+234                <data android:host="dev.invidio.us" />
+234-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+234-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+235                <data android:host="www.invidio.us" />
+235-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+235-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+236                <data android:host="redirect.invidious.io" />
+236-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+236-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+237                <data android:host="invidious.snopyta.org" />
+237-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+237-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+238                <data android:host="yewtu.be" />
+238-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+238-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+239                <data android:host="tube.connect.cafe" />
+239-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+239-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+240                <data android:host="invidious.kavin.rocks" />
+240-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+240-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+241                <data android:host="invidious-us.kavin.rocks" />
+241-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+241-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+242                <data android:host="piped.kavin.rocks" />
+242-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+242-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+243                <data android:host="invidious.site" />
+243-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+243-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+244                <data android:host="vid.mint.lgbt" />
+244-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+244-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+245                <data android:host="invidiou.site" />
+245-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+245-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+246                <data android:host="invidious.fdn.fr" />
+246-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+246-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+247                <data android:host="invidious.048596.xyz" />
+247-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+247-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+248                <data android:host="invidious.zee.li" />
+248-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+248-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+249                <data android:host="vid.puffyan.us" />
+249-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+249-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+250                <data android:host="ytprivate.com" />
+250-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+250-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+251                <data android:host="invidious.namazso.eu" />
+251-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+251-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+252                <data android:host="invidious.silkky.cloud" />
+252-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+252-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+253                <data android:host="invidious.exonip.de" />
+253-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+253-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+254                <data android:host="inv.riverside.rocks" />
+254-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+254-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+255                <data android:host="invidious.blamefran.net" />
+255-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+255-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+256                <data android:host="invidious.moomoo.me" />
+256-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+256-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+257                <data android:host="ytb.trom.tf" />
+257-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+257-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+258                <data android:host="yt.cyberhost.uk" />
+258-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+258-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+259                <data android:host="y.com.cm" />
+259-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+259-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+260                <data android:pathPrefix="/" />
+260-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+260-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+261            </intent-filter>
+262
+263            <!-- y2u.be filter -->
+264            <intent-filter>
+264-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:260:13-272:29
+265                <action android:name="android.intent.action.VIEW" />
+265-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+265-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+266                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+266-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+266-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+267                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+267-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+267-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+268
+269                <category android:name="android.intent.category.DEFAULT" />
+269-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+269-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+270                <category android:name="android.intent.category.BROWSABLE" />
+270-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+270-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+271
+272                <data android:scheme="http" />
+272-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+272-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+273                <data android:scheme="https" />
+273-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+273-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+274                <data android:host="y2u.be" />
+274-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+274-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+275                <data android:pathPrefix="/" />
+275-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+275-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+276            </intent-filter>
+277
+278            <!-- Soundcloud filter -->
+279            <intent-filter>
+279-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:275:13-289:29
+280                <action android:name="android.intent.action.VIEW" />
+280-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+280-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+281                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+281-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+281-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+282                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+282-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+282-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+283
+284                <category android:name="android.intent.category.DEFAULT" />
+284-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+284-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+285                <category android:name="android.intent.category.BROWSABLE" />
+285-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+285-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+286
+287                <data android:scheme="http" />
+287-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+287-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+288                <data android:scheme="https" />
+288-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+288-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+289                <data android:host="soundcloud.com" />
+289-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+289-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+290                <data android:host="m.soundcloud.com" />
+290-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+290-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+291                <data android:host="www.soundcloud.com" />
+291-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+291-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+292                <data android:pathPrefix="/" />
+292-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+292-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+293            </intent-filter>
+294
+295            <!-- Share filter -->
+296            <intent-filter>
+296-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:292:13-296:29
+297                <action android:name="android.intent.action.SEND" />
+297-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:293:17-69
+297-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:293:25-66
+298
+299                <category android:name="android.intent.category.DEFAULT" />
+299-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+299-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+300
+301                <data android:mimeType="text/plain" />
+301-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+301-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:295:23-52
+302            </intent-filter>
+303
+304            <!-- media.ccc.de filter -->
+305            <intent-filter>
+305-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:299:13-315:29
+306                <action android:name="android.intent.action.VIEW" />
+306-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+306-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+307                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+307-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+307-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+308                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+308-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+308-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+309
+310                <category android:name="android.intent.category.DEFAULT" />
+310-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+310-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+311                <category android:name="android.intent.category.BROWSABLE" />
+311-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+311-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+312
+313                <data android:scheme="http" />
+313-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+313-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+314                <data android:scheme="https" />
+314-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+314-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+315                <data android:host="media.ccc.de" />
+315-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+315-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+316                <!-- video prefix -->
+317                <data android:pathPrefix="/v/" />
+317-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+317-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+318                <!-- channel prefix -->
+319                <data android:pathPrefix="/c/" />
+319-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+319-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+320                <data android:pathPrefix="/b/" />
+320-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+320-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+321            </intent-filter>
+322
+323            <!-- PeerTube filter -->
+324            <intent-filter>
+324-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:318:13-350:29
+325                <action android:name="android.intent.action.VIEW" />
+325-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+325-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+326                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+326-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+326-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+327                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+327-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+327-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+328
+329                <category android:name="android.intent.category.DEFAULT" />
+329-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+329-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+330                <category android:name="android.intent.category.BROWSABLE" />
+330-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+330-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+331
+332                <data android:scheme="http" />
+332-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+332-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+333                <data android:scheme="https" />
+333-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+333-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+334                <data android:host="eduvid.org" />
+334-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+334-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+335                <data android:host="framatube.org" />
+335-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+335-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+336                <data android:host="media.assassinate-you.net" />
+336-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+336-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+337                <data android:host="peertube.co.uk" />
+337-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+337-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+338                <data android:host="peertube.cpy.re" />
+338-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+338-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+339                <data android:host="peertube.mastodon.host" />
+339-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+339-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+340                <data android:host="peertube.fr" />
+340-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+340-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+341                <data android:host="tilvids.com" />
+341-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+341-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+342                <data android:host="tube.privacytools.io" />
+342-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+342-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+343                <data android:host="video.ploud.fr" />
+343-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+343-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+344                <data android:host="video.lqdn.fr" />
+344-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+344-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+345                <data android:host="skeptikon.fr" />
+345-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+345-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+346                <data android:host="media.fsfe.org" />
+346-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+346-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+347                <data android:pathPrefix="/videos/" /> <!-- it contains playlists -->
+347-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+347-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+348                <data android:pathPrefix="/w/" /> <!-- short video URLs -->
+348-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+348-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+349                <data android:pathPrefix="/w/p/" /> <!-- short playlist URLs -->
+349-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+349-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+350                <data android:pathPrefix="/accounts/" />
+350-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+350-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+351                <data android:pathPrefix="/a/" /> <!-- short account URLs -->
+351-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+351-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+352                <data android:pathPrefix="/video-channels/" />
+352-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+352-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+353                <data android:pathPrefix="/c/" /> <!-- short video-channels URLs -->
+353-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+353-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:145:23-47
+354            </intent-filter>
+355
+356            <!-- Bandcamp filter for tracks, albums and playlists -->
+357            <intent-filter>
+357-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:353:13-364:29
+358                <action android:name="android.intent.action.VIEW" />
+358-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+358-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+359                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+359-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+359-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+360                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+360-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+360-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+361
+362                <category android:name="android.intent.category.DEFAULT" />
+362-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+362-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+363                <category android:name="android.intent.category.BROWSABLE" />
+363-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+363-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+364
+365                <data android:scheme="http" />
+365-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+365-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+366                <data android:scheme="https" />
+366-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+366-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+367                <data android:host="*.bandcamp.com" />
+367-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+367-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:140:23-49
+368            </intent-filter>
+369
+370            <!-- Bandcamp filter for radio -->
+371            <intent-filter>
+371-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:367:13-378:29
+372                <action android:name="android.intent.action.VIEW" />
+372-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:17-69
+372-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:131:25-66
+373                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+373-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:17-86
+373-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:132:25-83
+374                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+374-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:17-77
+374-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:133:25-74
+375
+376                <category android:name="android.intent.category.DEFAULT" />
+376-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:17-76
+376-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:80:27-73
+377                <category android:name="android.intent.category.BROWSABLE" />
+377-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:17-78
+377-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:136:27-75
+378
+379                <data android:scheme="http" />
+379-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+379-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+380                <data android:scheme="https" />
+380-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+380-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:23-44
+381                <data android:sspPattern="bandcamp.com/?show=*" />
+381-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:138:17-47
+381-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:377:23-64
+382            </intent-filter>
+383        </activity>
+384
+385        <service
+385-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:381:9-383:40
+386            android:name="org.schabi.newpipelegacy.RouterActivity$FetcherService"
+386-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:382:13-58
+387            android:exported="false" />
+387-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:383:13-37
+388
+389        <!-- opting out of sending metrics to Google in Android System WebView -->
+390        <meta-data
+390-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:386:9-95
+391            android:name="android.webkit.WebView.MetricsOptOut"
+391-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:386:20-71
+392            android:value="true" />
+392-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:386:72-92
+393        <!-- see https://github.com/TeamNewPipe/NewPipe/issues/3947 -->
+394        <!-- Version < 3.0. DeX Mode and Screen Mirroring support -->
+395        <meta-data
+395-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:389:9-95
+396            android:name="com.samsung.android.keepalive.density"
+396-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:389:20-72
+397            android:value="true" />
+397-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:389:73-93
+398        <!-- Version >= 3.0. DeX Dual Mode support -->
+399        <meta-data
+399-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:391:9-109
+400            android:name="com.samsung.android.multidisplay.keep_process_alive"
+400-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:391:20-86
+401            android:value="true" />
+401-->D:\Jass Code\NewPipe22-legacy-Update_dev\app\src\main\AndroidManifest.xml:391:87-107
+402
+403        <service
+403-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:26:9-30:39
+404            android:name="org.acra.sender.LegacySenderService"
+404-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:27:13-63
+405            android:enabled="@bool/acra_enable_legacy_service"
+405-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:28:13-63
+406            android:exported="false"
+406-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:29:13-37
+407            android:process=":acra" />
+407-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:30:13-36
+408        <service
+408-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:31:9-36:39
+409            android:name="org.acra.sender.JobSenderService"
+409-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:32:13-60
+410            android:enabled="@bool/acra_enable_job_service"
+410-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:33:13-60
+411            android:exported="false"
+411-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:34:13-37
+412            android:permission="android.permission.BIND_JOB_SERVICE"
+412-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:35:13-69
+413            android:process=":acra" />
+413-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:36:13-36
+414
+415        <provider
+415-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:38:9-44:51
+416            android:name="org.acra.attachment.AcraContentProvider"
+416-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:39:13-67
+417            android:authorities="org.schabi.newpipe.Flora.acra"
+417-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:40:13-56
+418            android:exported="false"
+418-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:41:13-37
+419            android:grantUriPermissions="true"
+419-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:42:13-47
+420            android:process=":acra" />
+420-->[ch.acra:acra-core:5.9.3] C:\Users\bharti\.gradle\caches\transforms-3\a792a1b8f10a846a8417e12b293277ca\transformed\jetified-acra-core-5.9.3\AndroidManifest.xml:43:13-36
+421
+422        <uses-library
+422-->[androidx.window:window:1.0.0] C:\Users\bharti\.gradle\caches\transforms-3\7a53f7b7b57c38a7feb7dd08bfb727a5\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+423            android:name="androidx.window.extensions"
+423-->[androidx.window:window:1.0.0] C:\Users\bharti\.gradle\caches\transforms-3\7a53f7b7b57c38a7feb7dd08bfb727a5\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+424            android:required="false" />
+424-->[androidx.window:window:1.0.0] C:\Users\bharti\.gradle\caches\transforms-3\7a53f7b7b57c38a7feb7dd08bfb727a5\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+425        <uses-library
+425-->[androidx.window:window:1.0.0] C:\Users\bharti\.gradle\caches\transforms-3\7a53f7b7b57c38a7feb7dd08bfb727a5\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+426            android:name="androidx.window.sidecar"
+426-->[androidx.window:window:1.0.0] C:\Users\bharti\.gradle\caches\transforms-3\7a53f7b7b57c38a7feb7dd08bfb727a5\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+427            android:required="false" />
+427-->[androidx.window:window:1.0.0] C:\Users\bharti\.gradle\caches\transforms-3\7a53f7b7b57c38a7feb7dd08bfb727a5\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+428
+429        <provider
+429-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+430            android:name="androidx.startup.InitializationProvider"
+430-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+431            android:authorities="org.schabi.newpipe.Flora.androidx-startup"
+431-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+432            android:exported="false" >
+432-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+433            <meta-data
+433-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+434                android:name="androidx.work.WorkManagerInitializer"
+434-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+435                android:value="androidx.startup" />
+435-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+436        </provider>
+437
+438        <service
+438-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+439            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+439-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+440            android:directBootAware="false"
+440-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+441            android:enabled="@bool/enable_system_alarm_service_default"
+441-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+442            android:exported="false" />
+442-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+443        <service
+443-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+444            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+444-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+445            android:directBootAware="false"
+445-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+446            android:enabled="@bool/enable_system_job_service_default"
+446-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+447            android:exported="true"
+447-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+448            android:permission="android.permission.BIND_JOB_SERVICE" />
+448-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+449        <service
+449-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+450            android:name="androidx.work.impl.foreground.SystemForegroundService"
+450-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+451            android:directBootAware="false"
+451-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+452            android:enabled="@bool/enable_system_foreground_service_default"
+452-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+453            android:exported="false" />
+453-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+454
+455        <receiver
+455-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+456            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+456-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+457            android:directBootAware="false"
+457-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+458            android:enabled="true"
+458-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+459            android:exported="false" />
+459-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+460        <receiver
+460-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+461            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+461-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+462            android:directBootAware="false"
+462-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+463            android:enabled="false"
+463-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+464            android:exported="false" >
+464-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+465            <intent-filter>
+465-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+466                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+466-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+466-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+467                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+467-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+467-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+468            </intent-filter>
+469        </receiver>
+470        <receiver
+470-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+471            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+471-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+472            android:directBootAware="false"
+472-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+473            android:enabled="false"
+473-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+474            android:exported="false" >
+474-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+475            <intent-filter>
+475-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+476                <action android:name="android.intent.action.BATTERY_OKAY" />
+476-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+476-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+477                <action android:name="android.intent.action.BATTERY_LOW" />
+477-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+477-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+478            </intent-filter>
+479        </receiver>
+480        <receiver
+480-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+481            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+481-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+482            android:directBootAware="false"
+482-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+483            android:enabled="false"
+483-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+484            android:exported="false" >
+484-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+485            <intent-filter>
+485-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+486                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+486-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+486-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+487                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+487-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+487-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+488            </intent-filter>
+489        </receiver>
+490        <receiver
+490-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+491            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+491-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+492            android:directBootAware="false"
+492-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+493            android:enabled="false"
+493-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+494            android:exported="false" >
+494-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+495            <intent-filter>
+495-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+496                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+496-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+496-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+497            </intent-filter>
+498        </receiver>
+499        <receiver
+499-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+500            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+500-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+501            android:directBootAware="false"
+501-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+502            android:enabled="false"
+502-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+503            android:exported="false" >
+503-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+504            <intent-filter>
+504-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+505                <action android:name="android.intent.action.BOOT_COMPLETED" />
+505-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+505-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+506                <action android:name="android.intent.action.TIME_SET" />
+506-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+506-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+507                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+507-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+507-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+508            </intent-filter>
+509        </receiver>
+510        <receiver
+510-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+511            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+511-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+512            android:directBootAware="false"
+512-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+513            android:enabled="@bool/enable_system_alarm_service_default"
+513-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+514            android:exported="false" >
+514-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+515            <intent-filter>
+515-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+516                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+516-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+516-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+517            </intent-filter>
+518        </receiver>
+519        <receiver
+519-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+520            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+520-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+521            android:directBootAware="false"
+521-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+522            android:enabled="true"
+522-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+523            android:exported="true"
+523-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+524            android:permission="android.permission.DUMP" >
+524-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+525            <intent-filter>
+525-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+526                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+526-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+526-->[androidx.work:work-runtime:2.7.1] C:\Users\bharti\.gradle\caches\transforms-3\c0bf9c768acca5600e0770e5f05bee44\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+527            </intent-filter>
+528        </receiver>
+529
+530        <service
+530-->[androidx.room:room-runtime:2.4.2] C:\Users\bharti\.gradle\caches\transforms-3\314a6aa3ddc9c30b7e939ab61fd34c7f\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+531            android:name="androidx.room.MultiInstanceInvalidationService"
+531-->[androidx.room:room-runtime:2.4.2] C:\Users\bharti\.gradle\caches\transforms-3\314a6aa3ddc9c30b7e939ab61fd34c7f\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+532            android:directBootAware="true"
+532-->[androidx.room:room-runtime:2.4.2] C:\Users\bharti\.gradle\caches\transforms-3\314a6aa3ddc9c30b7e939ab61fd34c7f\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+533            android:exported="false" />
+533-->[androidx.room:room-runtime:2.4.2] C:\Users\bharti\.gradle\caches\transforms-3\314a6aa3ddc9c30b7e939ab61fd34c7f\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+534
+535        <provider
+535-->[com.squareup.picasso:picasso:2.8] C:\Users\bharti\.gradle\caches\transforms-3\13993ca558088e1ff066721531e691a6\transformed\jetified-picasso-2.8\AndroidManifest.xml:8:9-11:40
+536            android:name="com.squareup.picasso.PicassoProvider"
+536-->[com.squareup.picasso:picasso:2.8] C:\Users\bharti\.gradle\caches\transforms-3\13993ca558088e1ff066721531e691a6\transformed\jetified-picasso-2.8\AndroidManifest.xml:9:13-64
+537            android:authorities="org.schabi.newpipe.Flora.com.squareup.picasso"
+537-->[com.squareup.picasso:picasso:2.8] C:\Users\bharti\.gradle\caches\transforms-3\13993ca558088e1ff066721531e691a6\transformed\jetified-picasso-2.8\AndroidManifest.xml:10:13-72
+538            android:exported="false" />
+538-->[com.squareup.picasso:picasso:2.8] C:\Users\bharti\.gradle\caches\transforms-3\13993ca558088e1ff066721531e691a6\transformed\jetified-picasso-2.8\AndroidManifest.xml:11:13-37
+539
+540        <activity
+540-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\bharti\.gradle\caches\transforms-3\de0f0faab7eaec56d3d66c7215a1b31c\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:8:9-12:75
+541            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+541-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\bharti\.gradle\caches\transforms-3\de0f0faab7eaec56d3d66c7215a1b31c\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:9:13-73
+542            android:exported="false"
+542-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\bharti\.gradle\caches\transforms-3\de0f0faab7eaec56d3d66c7215a1b31c\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:10:13-37
+543            android:process=":phoenix"
+543-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\bharti\.gradle\caches\transforms-3\de0f0faab7eaec56d3d66c7215a1b31c\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:11:13-39
+544            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+544-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\bharti\.gradle\caches\transforms-3\de0f0faab7eaec56d3d66c7215a1b31c\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:12:13-72
+545
+546        <provider
+546-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\923a1a520bea0098e6ef12f624812a2d\transformed\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:8:9-12:40
+547            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+547-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\923a1a520bea0098e6ef12f624812a2d\transformed\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:9:13-79
+548            android:authorities="org.schabi.newpipe.Flora.leakcanary-installer"
+548-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\923a1a520bea0098e6ef12f624812a2d\transformed\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:10:13-72
+549            android:enabled="@bool/leak_canary_watcher_auto_install"
+549-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\923a1a520bea0098e6ef12f624812a2d\transformed\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:11:13-69
+550            android:exported="false" />
+550-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\923a1a520bea0098e6ef12f624812a2d\transformed\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:12:13-37
+551        <provider
+551-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\04e920aa36f27f542e75e68cbda4a9fe\transformed\jetified-plumber-android-2.5\AndroidManifest.xml:8:9-12:40
+552            android:name="leakcanary.internal.PlumberInstaller"
+552-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\04e920aa36f27f542e75e68cbda4a9fe\transformed\jetified-plumber-android-2.5\AndroidManifest.xml:9:13-64
+553            android:authorities="org.schabi.newpipe.Flora.plumber-installer"
+553-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\04e920aa36f27f542e75e68cbda4a9fe\transformed\jetified-plumber-android-2.5\AndroidManifest.xml:10:13-69
+554            android:enabled="@bool/leak_canary_plumber_auto_install"
+554-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\04e920aa36f27f542e75e68cbda4a9fe\transformed\jetified-plumber-android-2.5\AndroidManifest.xml:11:13-69
+555            android:exported="false" />
+555-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\bharti\.gradle\caches\transforms-3\04e920aa36f27f542e75e68cbda4a9fe\transformed\jetified-plumber-android-2.5\AndroidManifest.xml:12:13-37
+556    </application>
+557
+558</manifest>

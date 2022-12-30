@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.schabi.newpipelegacy.app-mergeReleaseResources-42:/values-night-v21/values-night-v21.xml",
+            "map": [
+                {
+                    "source": "D:\\Jass Code\\NewPipe22-legacy-Update_dev\\app\\src\\main\\res\\values-night-v21\\styles.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "83",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "252"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "224"
+                    }
+                }
+            ]
+        }
+    ]
+}

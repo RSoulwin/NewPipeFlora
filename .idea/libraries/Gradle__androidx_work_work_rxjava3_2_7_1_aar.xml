@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.work:work-rxjava3:2.7.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46047687aa4e9fdffa737075d0d01c75/transformed/jetified-work-rxjava3-2.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/46047687aa4e9fdffa737075d0d01c75/transformed/jetified-work-rxjava3-2.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46047687aa4e9fdffa737075d0d01c75/transformed/jetified-work-rxjava3-2.7.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.work/work-rxjava3/2.7.1/3e77e4756abfa39dc2211514ed06e1d051af520/work-rxjava3-2.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

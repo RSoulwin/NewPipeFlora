@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.nononsenseapps:filepicker:4.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/454afb53357c952dac2046e15f2260ac/transformed/jetified-filepicker-4.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/454afb53357c952dac2046e15f2260ac/transformed/jetified-filepicker-4.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/454afb53357c952dac2046e15f2260ac/transformed/jetified-filepicker-4.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nononsenseapps/filepicker/4.2.1/d89c09ef7f61d06de9c7c9b9505869538e712935/filepicker-4.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nononsenseapps/filepicker/4.2.1/9980397875de37c18d15991c36ed6aae5180e43a/filepicker-4.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

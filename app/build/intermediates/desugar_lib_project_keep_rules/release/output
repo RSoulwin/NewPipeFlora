@@ -1,0 +1,330 @@
+-keep class java.util.Spliterator
+-keep class java.util.function.BiConsumer
+-keep class java.util.function.BiFunction
+-keep class java.util.function.Consumer
+-keep class java.util.function.Function
+-keep class java.util.function.Predicate
+-keep class java.util.function.UnaryOperator
+-keep class java.util.stream.Stream
+-keep class j$.util.Collection { *; }
+-keep class j$.util.Iterator { *; }
+-keep class j$.util.List { *; }
+-keep class j$.util.Map$Entry { *; }
+-keep class j$.util.Map { *; }
+-keep class j$.util.Set { *; }
+-keep class j$.util.SortedSet { *; }
+-keep class j$.lang.Iterable$-CC {
+    void $default$forEach(java.lang.Iterable, j$.util.function.Consumer);
+}
+-keep class j$.lang.Iterable$-EL {
+    void forEach(java.lang.Iterable, j$.util.function.Consumer);
+}
+-keep class j$.time.DateTimeException
+-keep class j$.time.Instant {
+    boolean isBefore(j$.time.Instant);
+    j$.time.Instant now();
+    j$.time.Instant ofEpochMilli(long);
+    j$.time.Instant ofEpochSecond(long);
+    j$.time.Instant parse(java.lang.CharSequence);
+    long toEpochMilli();
+}
+-keep class j$.time.LocalDate {
+    j$.time.LocalDateTime atStartOfDay();
+    j$.time.LocalDate minusWeeks(long);
+    j$.time.LocalDate now();
+    j$.time.LocalDate parse(java.lang.CharSequence);
+    j$.time.LocalDate parse(java.lang.CharSequence, j$.time.format.DateTimeFormatter);
+}
+-keep class j$.time.LocalDateTime {
+    j$.time.OffsetDateTime atOffset(j$.time.ZoneOffset);
+    j$.time.LocalDateTime now();
+}
+-keep class j$.time.OffsetDateTime {
+    j$.time.ZonedDateTime atZoneSameInstant(j$.time.ZoneId);
+    int compareTo(j$.time.OffsetDateTime);
+    int hashCode();
+    boolean isAfter(j$.time.OffsetDateTime);
+    j$.time.OffsetDateTime minus(long, j$.time.temporal.TemporalUnit);
+    j$.time.OffsetDateTime minusDays(long);
+    j$.time.OffsetDateTime minusSeconds(long);
+    j$.time.OffsetDateTime minusYears(long);
+    j$.time.OffsetDateTime now();
+    j$.time.OffsetDateTime now(j$.time.ZoneId);
+    j$.time.OffsetDateTime ofInstant(j$.time.Instant, j$.time.ZoneId);
+    j$.time.OffsetDateTime parse(java.lang.CharSequence);
+    j$.time.OffsetDateTime parse(java.lang.CharSequence, j$.time.format.DateTimeFormatter);
+    j$.time.Instant toInstant();
+    j$.time.OffsetDateTime truncatedTo(j$.time.temporal.TemporalUnit);
+    j$.time.OffsetDateTime withOffsetSameInstant(j$.time.ZoneOffset);
+}
+-keep class j$.time.ZoneId {
+    j$.time.ZoneId systemDefault();
+}
+-keep class j$.time.ZoneOffset {
+    j$.time.ZoneOffset UTC;
+}
+-keep class j$.time.ZonedDateTime {
+    j$.time.ZonedDateTime from(j$.time.temporal.TemporalAccessor);
+    j$.time.ZonedDateTime now();
+    j$.time.ZonedDateTime parse(java.lang.CharSequence, j$.time.format.DateTimeFormatter);
+    j$.time.ZonedDateTime plusHours(long);
+    long toEpochSecond();
+    j$.time.OffsetDateTime toOffsetDateTime();
+}
+-keep class j$.time.format.DateTimeFormatter {
+    j$.time.format.DateTimeFormatter ISO_LOCAL_DATE;
+    j$.time.format.DateTimeFormatter RFC_1123_DATE_TIME;
+    java.lang.String format(j$.time.temporal.TemporalAccessor);
+    j$.time.format.DateTimeFormatter ofLocalizedDate(j$.time.format.FormatStyle);
+    j$.time.format.DateTimeFormatter ofPattern(java.lang.String);
+    j$.time.format.DateTimeFormatter ofPattern(java.lang.String, java.util.Locale);
+    j$.time.temporal.TemporalAccessor parse(java.lang.CharSequence);
+    j$.time.format.DateTimeFormatter withLocale(java.util.Locale);
+}
+-keep class j$.time.format.DateTimeParseException {
+    java.lang.String getMessage();
+}
+-keep class j$.time.format.FormatStyle {
+    j$.time.format.FormatStyle MEDIUM;
+    j$.time.format.FormatStyle SHORT;
+}
+-keep class j$.time.temporal.ChronoUnit {
+    j$.time.temporal.ChronoUnit DAYS;
+    j$.time.temporal.ChronoUnit HOURS;
+    j$.time.temporal.ChronoUnit MINUTES;
+    j$.time.temporal.ChronoUnit MONTHS;
+    j$.time.temporal.ChronoUnit SECONDS;
+    j$.time.temporal.ChronoUnit WEEKS;
+    j$.time.temporal.ChronoUnit YEARS;
+    int ordinal();
+    j$.time.temporal.ChronoUnit[] values();
+}
+-keep class j$.time.temporal.TemporalAccessor
+-keep class j$.time.temporal.TemporalUnit
+-keep class j$.util.Collection$-CC {
+    j$.util.stream.Stream $default$parallelStream(java.util.Collection);
+    boolean $default$removeIf(java.util.Collection, j$.util.function.Predicate);
+    j$.util.Spliterator $default$spliterator(java.util.Collection);
+    j$.util.stream.Stream $default$stream(java.util.Collection);
+}
+-keep class j$.util.Collection$-EL {
+    j$.util.stream.Stream parallelStream(java.util.Collection);
+    boolean removeIf(java.util.Collection, j$.util.function.Predicate);
+    j$.util.Spliterator spliterator(java.util.Collection);
+    j$.util.stream.Stream stream(java.util.Collection);
+}
+-keep class j$.util.Comparator$-CC {
+    java.util.Comparator comparing(j$.util.function.Function);
+    java.util.Comparator comparing(j$.util.function.Function, java.util.Comparator);
+    java.util.Comparator comparingInt(j$.util.function.ToIntFunction);
+    java.util.Comparator comparingLong(j$.util.function.ToLongFunction);
+    java.util.Comparator nullsLast(java.util.Comparator);
+}
+-keep class j$.util.Comparator$-EL {
+    java.util.Comparator reversed(java.util.Comparator);
+}
+-keep class j$.util.DesugarArrays {
+    j$.util.stream.IntStream stream(int[]);
+    j$.util.stream.Stream stream(java.lang.Object[]);
+}
+-keep class j$.util.DesugarCollections {
+    java.util.Map synchronizedMap(java.util.Map);
+}
+-keep class j$.util.DesugarDate {
+    java.util.Date from(j$.time.Instant);
+}
+-keep class j$.util.DesugarTimeZone {
+    java.util.TimeZone getTimeZone(java.lang.String);
+}
+-keep class j$.util.Iterator$-CC {
+    void $default$forEachRemaining(java.util.Iterator, j$.util.function.Consumer);
+}
+-keep class j$.util.Iterator$-EL {
+    void forEachRemaining(java.util.Iterator, j$.util.function.Consumer);
+}
+-keep class j$.util.List$-CC {
+    void $default$replaceAll(java.util.List, j$.util.function.UnaryOperator);
+    void $default$sort(java.util.List, java.util.Comparator);
+}
+-keep class j$.util.List$-EL {
+    void sort(java.util.List, java.util.Comparator);
+}
+-keep class j$.util.Map$-CC {
+    java.lang.Object $default$compute(java.util.Map, java.lang.Object, j$.util.function.BiFunction);
+    java.lang.Object $default$computeIfAbsent(java.util.Map, java.lang.Object, j$.util.function.Function);
+    java.lang.Object $default$computeIfPresent(java.util.Map, java.lang.Object, j$.util.function.BiFunction);
+    void $default$forEach(java.util.Map, j$.util.function.BiConsumer);
+    java.lang.Object $default$merge(java.util.Map, java.lang.Object, java.lang.Object, j$.util.function.BiFunction);
+    void $default$replaceAll(java.util.Map, j$.util.function.BiFunction);
+}
+-keep class j$.util.Map$-EL {
+    java.lang.Object computeIfAbsent(java.util.Map, java.lang.Object, j$.util.function.Function);
+    void forEach(java.util.Map, j$.util.function.BiConsumer);
+    java.lang.Object putIfAbsent(java.util.Map, java.lang.Object, java.lang.Object);
+}
+-keep class j$.util.Optional {
+    j$.util.Optional empty();
+    j$.util.Optional flatMap(j$.util.function.Function);
+    java.lang.Object get();
+    void ifPresent(j$.util.function.Consumer);
+    boolean isPresent();
+    j$.util.Optional map(j$.util.function.Function);
+    j$.util.Optional of(java.lang.Object);
+    j$.util.Optional ofNullable(java.lang.Object);
+    java.lang.Object orElse(java.lang.Object);
+    java.lang.Object orElseGet(j$.util.function.Supplier);
+    java.lang.Object orElseThrow(j$.util.function.Supplier);
+}
+-keep class j$.util.OptionalInt {
+    int orElse(int);
+}
+-keep class j$.util.Set$-CC {
+    j$.util.Spliterator $default$spliterator(java.util.Set);
+}
+-keep class j$.util.Set$-EL {
+    j$.util.Spliterator spliterator(java.util.Set);
+}
+-keep class j$.util.Spliterator$-CC {
+    void $default$forEachRemaining(j$.util.Spliterator, j$.util.function.Consumer);
+    java.util.Comparator $default$getComparator(j$.util.Spliterator);
+    long $default$getExactSizeIfKnown(j$.util.Spliterator);
+    boolean $default$hasCharacteristics(j$.util.Spliterator, int);
+}
+-keep class j$.util.Spliterator$OfInt {
+    long estimateSize();
+    void forEachRemaining(j$.util.function.IntConsumer);
+    boolean tryAdvance(j$.util.function.IntConsumer);
+    j$.util.Spliterator$OfInt trySplit();
+}
+-keep class j$.util.Spliterator$Wrapper {
+    java.util.Spliterator convert(j$.util.Spliterator);
+}
+-keep class j$.util.Spliterator { *; }
+-keep class j$.util.Spliterators {
+    j$.util.Spliterator$OfInt spliterator(int[], int, int, int);
+    j$.util.Spliterator spliterator(java.util.Collection, int);
+    j$.util.Spliterator spliterator(java.lang.Object[], int);
+}
+-keep class j$.util.concurrent.ConcurrentHashMap {
+    void <init>();
+    void <init>(int, float, int);
+    void clear();
+    boolean containsKey(java.lang.Object);
+    java.util.Set entrySet();
+    java.lang.Object get(java.lang.Object);
+    boolean isEmpty();
+    java.lang.Object put(java.lang.Object, java.lang.Object);
+    java.lang.Object remove(java.lang.Object);
+    boolean remove(java.lang.Object, java.lang.Object);
+    int size();
+}
+-keep class j$.util.concurrent.ThreadLocalRandom {
+    j$.util.concurrent.ThreadLocalRandom current();
+}
+-keep class j$.util.function.BiConsumer$-CC {
+    j$.util.function.BiConsumer $default$andThen(j$.util.function.BiConsumer, j$.util.function.BiConsumer);
+}
+-keep class j$.util.function.BiConsumer$VivifiedWrapper {
+    j$.util.function.BiConsumer convert(java.util.function.BiConsumer);
+}
+-keep class j$.util.function.BiConsumer { *; }
+-keep class j$.util.function.BiFunction$VivifiedWrapper {
+    j$.util.function.BiFunction convert(java.util.function.BiFunction);
+}
+-keep class j$.util.function.BiFunction
+-keep class j$.util.function.Consumer$-CC {
+    j$.util.function.Consumer $default$andThen(j$.util.function.Consumer, j$.util.function.Consumer);
+}
+-keep class j$.util.function.Consumer$VivifiedWrapper {
+    j$.util.function.Consumer convert(java.util.function.Consumer);
+}
+-keep class j$.util.function.Consumer { *; }
+-keep class j$.util.function.DoubleConsumer$-CC {
+    j$.util.function.DoubleConsumer $default$andThen(j$.util.function.DoubleConsumer, j$.util.function.DoubleConsumer);
+}
+-keep class j$.util.function.DoubleConsumer { *; }
+-keep class j$.util.function.DoubleFunction { *; }
+-keep class j$.util.function.DoubleSupplier { *; }
+-keep class j$.util.function.Function$-CC {
+    j$.util.function.Function $default$andThen(j$.util.function.Function, j$.util.function.Function);
+    j$.util.function.Function $default$compose(j$.util.function.Function, j$.util.function.Function);
+    j$.util.function.Function identity();
+}
+-keep class j$.util.function.Function$VivifiedWrapper {
+    j$.util.function.Function convert(java.util.function.Function);
+}
+-keep class j$.util.function.Function { *; }
+-keep class j$.util.function.IntConsumer$-CC {
+    j$.util.function.IntConsumer $default$andThen(j$.util.function.IntConsumer, j$.util.function.IntConsumer);
+}
+-keep class j$.util.function.IntConsumer { *; }
+-keep class j$.util.function.IntFunction { *; }
+-keep class j$.util.function.IntPredicate$-CC {
+    j$.util.function.IntPredicate $default$and(j$.util.function.IntPredicate, j$.util.function.IntPredicate);
+    j$.util.function.IntPredicate $default$negate(j$.util.function.IntPredicate);
+    j$.util.function.IntPredicate $default$or(j$.util.function.IntPredicate, j$.util.function.IntPredicate);
+}
+-keep class j$.util.function.IntPredicate { *; }
+-keep class j$.util.function.IntSupplier { *; }
+-keep class j$.util.function.IntUnaryOperator$-CC {
+    j$.util.function.IntUnaryOperator $default$andThen(j$.util.function.IntUnaryOperator, j$.util.function.IntUnaryOperator);
+    j$.util.function.IntUnaryOperator $default$compose(j$.util.function.IntUnaryOperator, j$.util.function.IntUnaryOperator);
+}
+-keep class j$.util.function.IntUnaryOperator { *; }
+-keep class j$.util.function.Predicate$-CC {
+    j$.util.function.Predicate $default$and(j$.util.function.Predicate, j$.util.function.Predicate);
+    j$.util.function.Predicate $default$negate(j$.util.function.Predicate);
+    j$.util.function.Predicate $default$or(j$.util.function.Predicate, j$.util.function.Predicate);
+}
+-keep class j$.util.function.Predicate$VivifiedWrapper {
+    j$.util.function.Predicate convert(java.util.function.Predicate);
+}
+-keep class j$.util.function.Predicate { *; }
+-keep class j$.util.function.Supplier { *; }
+-keep class j$.util.function.ToIntFunction { *; }
+-keep class j$.util.function.ToLongFunction { *; }
+-keep class j$.util.function.UnaryOperator$VivifiedWrapper {
+    j$.util.function.UnaryOperator convert(java.util.function.UnaryOperator);
+}
+-keep class j$.util.function.UnaryOperator
+-keep class j$.util.stream.Collector
+-keep class j$.util.stream.Collectors {
+    j$.util.stream.Collector joining(java.lang.CharSequence);
+    j$.util.stream.Collector toList();
+    j$.util.stream.Collector toMap(j$.util.function.Function, j$.util.function.Function);
+}
+-keep class j$.util.stream.IntStream$-CC {
+    j$.util.stream.IntStream range(int, int);
+}
+-keep class j$.util.stream.IntStream {
+    boolean anyMatch(j$.util.function.IntPredicate);
+    j$.util.stream.IntStream filter(j$.util.function.IntPredicate);
+    j$.util.OptionalInt findFirst();
+    j$.util.Spliterator$OfInt spliterator();
+}
+-keep class j$.util.stream.Stream$-CC {
+    j$.util.stream.Stream concat(j$.util.stream.Stream, j$.util.stream.Stream);
+    j$.util.stream.Stream empty();
+    j$.util.stream.Stream of(java.lang.Object);
+    j$.util.stream.Stream of(java.lang.Object[]);
+}
+-keep class j$.util.stream.Stream$Wrapper {
+    java.util.stream.Stream convert(j$.util.stream.Stream);
+}
+-keep class j$.util.stream.Stream {
+    boolean anyMatch(j$.util.function.Predicate);
+    java.lang.Object collect(j$.util.stream.Collector);
+    j$.util.stream.Stream distinct();
+    j$.util.stream.Stream filter(j$.util.function.Predicate);
+    j$.util.Optional findFirst();
+    j$.util.stream.Stream flatMap(j$.util.function.Function);
+    void forEach(j$.util.function.Consumer);
+    void forEachOrdered(j$.util.function.Consumer);
+    j$.util.stream.Stream limit(long);
+    j$.util.stream.Stream map(j$.util.function.Function);
+    j$.util.Optional max(java.util.Comparator);
+    j$.util.Optional min(java.util.Comparator);
+    j$.util.stream.Stream sorted();
+    j$.util.stream.Stream sorted(java.util.Comparator);
+    java.lang.Object[] toArray(j$.util.function.IntFunction);
+}

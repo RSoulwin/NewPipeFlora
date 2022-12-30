@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "org.schabi.newpipelegacy.app-mergeReleaseResources-43:/layout-large-land-v4/fragment_video_detail.xml",
+        "source": "org.schabi.newpipelegacy.app-main-45:/layout-large-land/fragment_video_detail.xml"
+    }
+]

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="channel_item_detail_title_text_size">18sp</dimen>
+    <dimen name="design_navigation_max_width">320dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0dp</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2dp</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24dp</dimen>
+    <dimen name="design_snackbar_max_width">576dp</dimen>
+    <dimen name="design_snackbar_min_width">320dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical
+  </dimen>
+    <dimen name="design_tab_scrollable_min_width">160dp</dimen>
+    <dimen name="mtrl_bottomappbar_height">64dp</dimen>
+    <dimen name="mtrl_toolbar_default_height">64dp</dimen>
+    <dimen name="popup_default_width">230dp</dimen>
+    <dimen name="popup_minimum_width">160dp</dimen>
+    <dimen name="search_suggestion_text_size">14sp</dimen>
+    <dimen name="video_item_detail_description_text_size">16sp</dimen>
+    <dimen name="video_item_detail_like_image_height">18sp</dimen>
+    <dimen name="video_item_detail_like_image_width">18sp</dimen>
+    <dimen name="video_item_detail_like_margin">10dp</dimen>
+    <dimen name="video_item_detail_likes_text_size">14sp</dimen>
+    <dimen name="video_item_detail_pinned_right_margin">10dp</dimen>
+    <dimen name="video_item_detail_sub_channel_image_size">20dp</dimen>
+    <dimen name="video_item_detail_sub_channel_text_size">16sp</dimen>
+    <dimen name="video_item_detail_title_text_size">16sp</dimen>
+    <dimen name="video_item_detail_upload_date_text_size">16sp</dimen>
+    <dimen name="video_item_detail_uploader_image_size">40dp</dimen>
+    <dimen name="video_item_detail_uploader_text_size">12sp</dimen>
+    <dimen name="video_item_detail_views_text_size">16sp</dimen>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+    <item name="tabGravity">center</item>
+    <item name="tabMode">fixed</item>
+  </style>
+</resources>

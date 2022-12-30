@@ -1,0 +1,10 @@
+#Tue Dec 27 00:39:44 IST 2022
+base.2=D\:\\Jass Code\\NewPipe22-legacy-Update_dev\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes2.dex
+path.2=classes2.dex
+base.1=D\:\\Jass Code\\NewPipe22-legacy-Update_dev\\app\\build\\intermediates\\desugar_lib_dex\\release\\classes1000.dex
+path.1=classes1000.dex
+base.0=D\:\\Jass Code\\NewPipe22-legacy-Update_dev\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

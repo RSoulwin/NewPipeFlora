@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>Normal</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Fast-forward %d second</item>
+    <item quantity="other">Fast-forward %d seconds</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Rewind %d second</item>
+    <item quantity="other">Rewind %d seconds</item>
+  </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d new notification</item>
+    <item quantity="other">%d new notifications</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigate home"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigate up"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"More options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Done"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"See all"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Choose an app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Search…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Clear query"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Search query"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Search"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Submit query"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Voice search"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Share with"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Share with <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Collapse"</string>
+    <string name="app_license">NewPipe is copyleft libre software: You can use, study share and improve it at will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public Licence as published by the Free Software Foundation, either version 3 of the Licence, or (at your option) any later version.</string>
+    <string name="app_license_title">NewPipe’s licence</string>
+    <string name="app_update_notification_channel_name">App update notification</string>
+    <string name="autoplay_summary">Start playback automatically – %s</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="cancel">Cancel</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="content_not_supported">This content is not yet supported by NewPipe.
+\n
+\nHopefully, it will be supported in a future version.</string>
+    <string name="contribution_encouragement">Whether you have ideas of; translation, design changes, code cleaning, or real heavy code changes – help is always welcome. The more is done, the better it gets!</string>
+    <string msgid="6083905920877235314" name="copy">"Copy"</string>
+    <string name="detail_sub_channel_thumbnail_view_description">Channel’s avatar thumbnail</string>
+    <string name="did_you_mean">Did you mean ‘%1$s’\?</string>
+    <string name="download_thumbnail_summary">Turn off to prevent loading thumbnails, saving data and memory usage. Changes clear both in-memory and on-disc image cache.</string>
+    <string name="download_to_sdcard_error_message">Downloading to SD card not possible. Reset download folder location\?</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_report_button_text">Report this error via e-mail</string>
+    <string name="exo_controls_cc_disabled_description">Enable subtitles</string>
+    <string name="exo_controls_cc_enabled_description">Disable subtitles</string>
+    <string name="exo_controls_fastforward_description">Fast-forward</string>
+    <string name="exo_controls_fullscreen_enter_description">Enter fullscreen</string>
+    <string name="exo_controls_fullscreen_exit_description">Exit fullscreen</string>
+    <string name="exo_controls_hide">Hide player controls</string>
+    <string name="exo_controls_next_description">Next</string>
+    <string name="exo_controls_overflow_hide_description">Hide additional settings</string>
+    <string name="exo_controls_overflow_show_description">Show additional settings</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Play</string>
+    <string name="exo_controls_playback_speed">Speed</string>
+    <string name="exo_controls_previous_description">Previous</string>
+    <string name="exo_controls_repeat_all_description">Current mode: Repeat all. Toggle repeat mode.</string>
+    <string name="exo_controls_repeat_off_description">Current mode: Repeat none. Toggle repeat mode.</string>
+    <string name="exo_controls_repeat_one_description">Current mode: Repeat one. Toggle repeat mode.</string>
+    <string name="exo_controls_rewind_description">Rewind</string>
+    <string name="exo_controls_seek_bar_description">Playback progress</string>
+    <string name="exo_controls_settings_description">Settings</string>
+    <string name="exo_controls_show">Show player controls</string>
+    <string name="exo_controls_shuffle_off_description">Enable shuffle mode</string>
+    <string name="exo_controls_shuffle_on_description">Disable shuffle mode</string>
+    <string name="exo_controls_stop_description">Stop</string>
+    <string name="exo_controls_vr_description">VR mode</string>
+    <string name="exo_download_completed">Download completed</string>
+    <string name="exo_download_description">Download</string>
+    <string name="exo_download_downloading">Downloading</string>
+    <string name="exo_download_failed">Download failed</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_paused">Downloads paused</string>
+    <string name="exo_download_paused_for_network">Downloads waiting for network</string>
+    <string name="exo_download_paused_for_wifi">Downloads waiting for Wi-Fi</string>
+    <string name="exo_download_removing">Removing downloads</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_media_action_repeat_all_description">Repeat all</string>
+    <string name="exo_media_action_repeat_off_description">Repeat none</string>
+    <string name="exo_media_action_repeat_one_description">Repeat one</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternative</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">Commentary</string>
+    <string name="exo_track_role_supplementary">Supplementary</string>
+    <string name="exo_track_selection_auto">Auto</string>
+    <string name="exo_track_selection_none">None</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Text</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround sound</string>
+    <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
+    <string name="exo_track_surround_7_point_1">7.1 surround sound</string>
+    <string name="exo_track_unknown">Unknown</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Advanced"</string>
+    <string name="exposed_dropdown_menu_content_description">Show drop-down menu</string>
+    <string name="feed_update_threshold_summary">Time after last update before a subscription is considered outdated – %s</string>
+    <string name="feed_use_dedicated_fetch_method_help_text">Do you think feed loading is too slow\? If so, try enabling fast loading (you can change it in settings or by pressing the button below).
+\n
+\nNewPipe offers two feed loading methods:
+\n• Fetching the whole subscription channel, which is slow but complete.
+\n• Using a dedicated service endpoint, which is fast but usually not complete.
+\n
+\nThe difference between the two is that the fast one usually lacks some information, like the item\'s duration or type (can\'t distinguish between live videos and normal ones) and it may return fewer items.
+\n
+\nYouTube is an example of a service that offers this fast method with its RSS feed.
+\n
+\nSo the choice boils down to what you prefer: speed or complete information.</string>
+    <string name="feed_use_dedicated_fetch_method_summary">Available in some services, it is usually much faster but may return a limited number of items and often incomplete information (e.g. no duration, item type, no live status).</string>
+    <string name="hash_channel_name">Video hash notification</string>
+    <string name="icon_content_description">Dialogue Icon</string>
+    <string name="import_soundcloud_instructions">Import a SoundCloud profile by typing either the URL or your ID:
+\n
+\n1. Enable ‘desktop mode’ in a web browser (the site is not available for mobile devices)
+\n2. Go to this URL: %1$s
+\n3. Log in when asked
+\n4. Copy the profile URL you were redirected to.</string>
+    <string name="import_youtube_instructions">Import YouTube subscriptions from Google takeout:
+\n
+\n1. Go to this URL: %1$s
+\n2. Log in when asked
+\n3. Click on ‘All data included’, then on ‘Deselect all’, then select only ‘subscriptions’ and click ‘OK’
+\n4. Click on ‘Next step’ and then on ‘Create export’
+\n5. Click on the ‘Download’ button after it appears
+\n6. Click on IMPORT FILE below and select the downloaded .zip file
+\n7. [If the .zip import fails] Extract the .csv file (usually under ‘YouTube and YouTube Music/subscriptions/subscriptions.csv’), click on IMPORT FILE below and select the extracted csv file</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="just_once">Just once</string>
+    <string name="main_bg_subtitle">Tap the magnifying glass to get started.</string>
+    <string name="material_clock_toggle_content_description">Select a.m. or p.m.</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">%1$s o\'clock</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="max_retry_desc">Maximum number of attempts before cancelling the download</string>
+    <string name="minimize_on_exit_summary">Action when switching to other app from main video player – %s</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="night_theme_summary">Select your favorite night theme – %s</string>
+    <string msgid="6573031135582639649" name="not_set">"Not set"</string>
+    <string name="notification_colorize_summary">Have Android customise the notification’s colour according to the main colour in the thumbnail (note that this is not available on all devices)</string>
+    <string name="notification_colorize_title">Colourise notification</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="peertube_instance_url_summary">Select your favourite PeerTube instances</string>
+    <string name="popup_playing_toast">Playing in pop-up mode</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\'<ns1:g id="SUMMARY">%1$s</ns1:g>\' copied to clipboard."</string>
+    <string name="preferred_open_action_settings_summary">Default action when opening content – %s</string>
+    <string name="read_full_license">Read licence</string>
+    <string name="restricted_video">This video is age restricted.
+\n
+\nTurn on ‘%1$s’ in the settings if you want to see it.</string>
+    <string name="resume_on_audio_focus_gain_summary">Continue playing after interruptions (e.g. phone calls)</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Search"</string>
+    <string name="settings_category_appearance_title">Appearance</string>
+    <string name="settings_category_debug_title">Debug</string>
+    <string name="settings_category_history_title">History and cache</string>
+    <string name="settings_category_player_behavior_title">Behaviour</string>
+    <string name="settings_category_player_title">Player</string>
+    <string name="settings_category_updates_title">Updates</string>
+    <string name="settings_category_video_audio_title">Video and audio</string>
+    <string name="show_age_restricted_content_summary">Show content possibly unsuitable for children because it has an age limit (such as 18+)</string>
+    <string name="show_hold_to_append_summary">Show tip when pressing the background or the pop-up button in video ‘Details:’</string>
+    <string name="show_hold_to_append_title">Show ‘Hold to append’ tip</string>
+    <string name="show_play_with_kodi_summary">Display an option to play a video via Kodi media centre</string>
+    <string name="show_play_with_kodi_title">Show ‘Play with Kodi’ option</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subtitle_activity_recaptcha">Press ‘Done’ when solved</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="switch_to_background">Switch to Background</string>
+    <string name="switch_to_main">Switch to Main</string>
+    <string name="switch_to_popup">Switch to Pop-up</string>
+    <string name="tab_licenses">Licences</string>
+    <string name="title_licenses">Third-party licences</string>
+    <string name="upload_date_text">Published on %1$s</string>
+    <string name="use_inexact_seek_summary">Inexact seek allows the player to seek to positions faster with reduced precision. Seeking for 5, 15 or 25 seconds doesn’t work with this.</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"OFF"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ON"</string>
+    <string name="youtube_restricted_mode_enabled_summary">YouTube provides a ‘Restricted Mode’ which hides potentially mature content</string>
+    <string name="youtube_restricted_mode_enabled_title">Turn on YouTube’s ‘Restricted Mode’</string>
+</resources>

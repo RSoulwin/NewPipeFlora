@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.schabi.newpipelegacy.app-mergeReleaseResources-42:/values-ar-rLY/values-ar-rLY.xml",
+            "map": [
+                {
+                    "source": "D:\\Jass Code\\NewPipe22-legacy-Update_dev\\app\\src\\main\\res\\values-ar-rLY\\strings.xml",
+                    "from": {
+                        "startLines": "11,6,7,12,16,14,13,10,9,5,4,8,3,15,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "557,280,346,598,892,743,640,497,430,241,196,389,139,830,55",
+                        "endColumns": "40,65,42,41,67,86,102,59,66,38,44,40,56,61,83",
+                        "endOffsets": "593,341,384,635,955,825,738,552,492,275,236,425,191,887,134"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,162,205,247,315,402,505,565,632,671,716,757,814,876",
+                        "endColumns": "40,65,42,41,67,86,102,59,66,38,44,40,56,61,83",
+                        "endOffsets": "91,157,200,242,310,397,500,560,627,666,711,752,809,871,955"
+                    }
+                }
+            ]
+        }
+    ]
+}

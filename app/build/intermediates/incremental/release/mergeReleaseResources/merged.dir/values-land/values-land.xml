@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="channel_avatar_size">90dp</dimen>
+    <dimen name="channel_item_detail_title_text_size">18sp</dimen>
+    <dimen name="channel_rss_title_size">14sp</dimen>
+    <dimen name="channel_subscribers_text_size">14sp</dimen>
+    <dimen name="comment_item_avatar_right_margin">13dp</dimen>
+    <dimen name="file_picker_items_text_size">16sp</dimen>
+    <dimen name="material_time_picker_minimum_screen_height">450dp</dimen>
+    <dimen name="material_time_picker_minimum_screen_width">600dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_end">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_start">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24dp</dimen>
+    <dimen name="mtrl_calendar_days_of_week_height">20dp</dimen>
+    <dimen name="mtrl_calendar_header_content_padding">4dp</dimen>
+    <dimen name="mtrl_calendar_header_height_fullscreen">96dp</dimen>
+    <dimen name="mtrl_calendar_header_toggle_margin_bottom">0dp</dimen>
+    <dimen name="mtrl_calendar_header_toggle_margin_top">0dp</dimen>
+    <dimen name="mtrl_calendar_landscape_header_width">104dp</dimen>
+    <dimen name="mtrl_calendar_selection_baseline_to_top_fullscreen">68dp</dimen>
+    <dimen name="mtrl_calendar_selection_text_baseline_to_bottom_fullscreen">28dp</dimen>
+    <dimen name="mtrl_calendar_selection_text_baseline_to_top">64dp</dimen>
+    <dimen name="mtrl_calendar_text_input_padding_top">32dp</dimen>
+    <dimen name="mtrl_calendar_title_baseline_to_top">24dp</dimen>
+    <dimen name="mtrl_calendar_title_baseline_to_top_fullscreen">32dp</dimen>
+    <dimen name="playlist_item_thumbnail_stream_count_width">70dp</dimen>
+    <dimen name="search_suggestion_text_size">14sp</dimen>
+    <dimen name="sub_channel_avatar_size">45dp</dimen>
+    <dimen name="video_item_detail_description_text_size">14sp</dimen>
+    <dimen name="video_item_detail_error_panel_margin">4dp</dimen>
+    <dimen name="video_item_detail_like_image_height">20sp</dimen>
+    <dimen name="video_item_detail_like_image_width">20sp</dimen>
+    <dimen name="video_item_detail_like_margin">8dp</dimen>
+    <dimen name="video_item_detail_likes_text_size">13sp</dimen>
+    <dimen name="video_item_detail_pinned_right_margin">8dp</dimen>
+    <dimen name="video_item_detail_sub_channel_image_size">21dp</dimen>
+    <dimen name="video_item_detail_sub_channel_text_size">16sp</dimen>
+    <dimen name="video_item_detail_title_text_size">16sp</dimen>
+    <dimen name="video_item_detail_upload_date_text_size">14sp</dimen>
+    <dimen name="video_item_detail_uploader_image_size">42dp</dimen>
+    <dimen name="video_item_detail_uploader_text_size">12sp</dimen>
+    <dimen name="video_item_detail_views_text_size">14sp</dimen>
+    <dimen name="video_item_search_avatar_image_height">80dp</dimen>
+    <dimen name="video_item_search_avatar_image_width">80dp</dimen>
+    <dimen name="video_item_search_avatar_left_margin">31dp</dimen>
+    <dimen name="video_item_search_avatar_right_margin">41dp</dimen>
+    <dimen name="video_item_search_duration_horizontal_padding">7sp</dimen>
+    <dimen name="video_item_search_duration_text_size">12sp</dimen>
+    <dimen name="video_item_search_duration_vertical_padding">1sp</dimen>
+    <dimen name="video_item_search_height">106dp</dimen>
+    <dimen name="video_item_search_image_right_margin">10dp</dimen>
+    <dimen name="video_item_search_thumbnail_image_height">80dp</dimen>
+    <dimen name="video_item_search_thumbnail_image_width">142dp</dimen>
+    <dimen name="video_item_search_title_text_size">16sp</dimen>
+    <dimen name="video_item_search_upload_date_text_size">14sp</dimen>
+    <dimen name="video_item_search_uploader_text_size">14sp</dimen>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+    <item name="tabGravity">center</item>
+    <item name="tabMode">fixed</item>
+  </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderSelection" parent="Widget.AppCompat.TextView">
+    <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+    <item name="android:textColor">?attr/colorOnPrimary</item>
+    <item name="android:maxLines">@integer/mtrl_calendar_selection_text_lines</item>
+    <item name="android:ellipsize">end</item>
+  </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderSelection.Fullscreen">
+    <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+    <item name="android:maxLines">1</item>
+    <item name="autoSizeMaxTextSize">20sp</item>
+  </style>
+</resources>
