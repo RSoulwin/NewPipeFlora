@@ -318,6 +318,10 @@ public final class PlayerHelper {
 
     @NonNull
     public static CaptionStyleCompat getCaptionStyle(@NonNull final Context context) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
+            return CaptionStyleCompat.DEFAULT;
+        }
+
         final CaptioningManager captioningManager = ContextCompat.getSystemService(context,
                 CaptioningManager.class);
         if (captioningManager == null || !captioningManager.isEnabled()) {
@@ -342,10 +346,14 @@ public final class PlayerHelper {
      * @return caption scaling
      */
     public static float getCaptionScale(@NonNull final Context context) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
+            return 1f;
+        }
+
         final CaptioningManager captioningManager = ContextCompat.getSystemService(context,
                 CaptioningManager.class);
         if (captioningManager == null || !captioningManager.isEnabled()) {
-            return 1.0f;
+            return 1f;
         }
 
         return captioningManager.getFontScale();

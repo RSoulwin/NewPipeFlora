@@ -30,7 +30,7 @@ public final class PermissionHelper {
         if (NewPipeSettings.useStorageAccessFramework(activity)) {
             return true; // Storage permissions are not needed for SAF
         }
-
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
         if (!checkReadStoragePermissions(activity, requestCode)) {
             return false;
         }
